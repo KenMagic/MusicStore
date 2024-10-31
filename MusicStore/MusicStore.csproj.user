@@ -2,12 +2,36 @@
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup />
   <ItemGroup>
+    <Compile Update="Done.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="Login.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Main.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="RegisterPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="UserProfileRegis.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Page Update="Done.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="Login.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Main.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="RegisterPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UserProfileRegis.xaml">
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>

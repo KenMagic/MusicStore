@@ -37,7 +37,7 @@ public partial class MusicStoreContext : DbContext
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
          var config = new ConfigurationBuilder().AddJsonFile("appsettings.json").Build();
-        optionsBuilder.UseSqlServer(config.GetConnectionString("DefaultConnection"));
+        optionsBuilder.UseSqlServer(config.GetConnectionString("MyDatabaseConnection"));
     }
 
 

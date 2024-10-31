@@ -9,6 +9,15 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="eyes-close.png" />
+    <None Remove="eyes.png" />
+    <None Remove="logo.jfif" />
+    <None Remove="logo.png" />
+    <None Remove="w88xb1rv.png" />
+    <None Remove="ytalyygm.png" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="9.0.0-rc.2.24474.1" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="9.0.0-rc.2.24474.1">
       <PrivateAssets>all</PrivateAssets>
@@ -25,6 +34,15 @@
 
   <ItemGroup>
     <Page Include="App.xaml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="eyes-close.png" />
+    <Resource Include="eyes.png" />
+    <Resource Include="logo.jfif" />
+    <Resource Include="logo.png" />
+    <Resource Include="w88xb1rv.png" />
+    <Resource Include="ytalyygm.png" />
   </ItemGroup>
 
   <ItemGroup>
