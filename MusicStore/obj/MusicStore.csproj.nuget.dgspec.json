@@ -1,28 +1,28 @@
 {
   "format": 1,
   "restore": {
-    "E:\\PRN212\\Assignment\\MusicStore\\MusicStore\\MusicStore.csproj": {}
+    "D:\\code\\MusicStore\\MusicStore\\MusicStore.csproj": {}
   },
   "projects": {
-    "E:\\PRN212\\Assignment\\MusicStore\\MusicStore\\MusicStore.csproj": {
+    "D:\\code\\MusicStore\\MusicStore\\MusicStore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\PRN212\\Assignment\\MusicStore\\MusicStore\\MusicStore.csproj",
+        "projectUniqueName": "D:\\code\\MusicStore\\MusicStore\\MusicStore.csproj",
         "projectName": "MusicStore",
-        "projectPath": "E:\\PRN212\\Assignment\\MusicStore\\MusicStore\\MusicStore.csproj",
-        "packagesPath": "C:\\Users\\84336\\.nuget\\packages\\",
-        "outputPath": "E:\\PRN212\\Assignment\\MusicStore\\MusicStore\\obj\\",
+        "projectPath": "D:\\code\\MusicStore\\MusicStore\\MusicStore.csproj",
+        "packagesPath": "C:\\Users\\daihi\\.nuget\\packages\\",
+        "outputPath": "D:\\code\\MusicStore\\MusicStore\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\84336\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\daihi\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0-windows"
         ],
         "sources": {
-          "C:\\Program Files\\dotnet\\library-packs": {},
-          "E:\\package-prn": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "D:\\code\\Nuget": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {

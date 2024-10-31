@@ -53,7 +53,7 @@ namespace MusicStore {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/MusicStore;component/done.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/MusicStore;V1.0.0.0;component/done.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\Done.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

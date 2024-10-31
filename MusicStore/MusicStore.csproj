@@ -9,6 +9,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="a2811906757_10-e1713057845476.jpg" />
+    <None Remove="a3767495911_161-e1713060342543.jpg" />
+    <None Remove="ac5e2e34-2e60-4c5e-aa5a-d3ed311fd6c7.sized-1000x1000-e1713060607184.jpeg" />
+    <None Remove="Benson-Boone-‘Fireworks-And-Rollerblades-340x340.jpg" />
     <None Remove="eyes-close.png" />
     <None Remove="eyes.png" />
     <None Remove="logo.jfif" />
@@ -37,6 +41,10 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Resource Include="a2811906757_10-e1713057845476.jpg" />
+    <Resource Include="a3767495911_161-e1713060342543.jpg" />
+    <Resource Include="ac5e2e34-2e60-4c5e-aa5a-d3ed311fd6c7.sized-1000x1000-e1713060607184.jpeg" />
+    <Resource Include="Benson-Boone-‘Fireworks-And-Rollerblades-340x340.jpg" />
     <Resource Include="eyes-close.png" />
     <Resource Include="eyes.png" />
     <Resource Include="logo.jfif" />
