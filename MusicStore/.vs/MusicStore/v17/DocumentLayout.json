@@ -1,456 +1,1078 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\code\\MusicStore\\MusicStore\\",
+  "WorkspaceRootPath": "E:\\ASM-PRN\\MusicStore\\MusicStore\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{213B6453-99D5-4E7A-B363-2C1D9E85610D}|MusicStore.csproj|d:\\code\\musicstore\\musicstore\\main.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{213B6453-99D5-4E7A-B363-2C1D9E85610D}|MusicStore.csproj|solutionrelative:main.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{213B6453-99D5-4E7A-B363-2C1D9E85610D}|MusicStore.csproj|e:\\asm-prn\\musicstore\\musicstore\\viewmodel\\musiclistenervm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{213B6453-99D5-4E7A-B363-2C1D9E85610D}|MusicStore.csproj|solutionrelative:viewmodel\\musiclistenervm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{213B6453-99D5-4E7A-B363-2C1D9E85610D}|MusicStore.csproj|d:\\code\\musicstore\\musicstore\\main.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{213B6453-99D5-4E7A-B363-2C1D9E85610D}|MusicStore.csproj|solutionrelative:main.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{213B6453-99D5-4E7A-B363-2C1D9E85610D}|MusicStore.csproj|e:\\asm-prn\\musicstore\\musicstore\\musiclistener.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{213B6453-99D5-4E7A-B363-2C1D9E85610D}|MusicStore.csproj|solutionrelative:musiclistener.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{213B6453-99D5-4E7A-B363-2C1D9E85610D}|MusicStore.csproj|d:\\code\\musicstore\\musicstore\\userprofileregis.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{213B6453-99D5-4E7A-B363-2C1D9E85610D}|MusicStore.csproj|solutionrelative:userprofileregis.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{213B6453-99D5-4E7A-B363-2C1D9E85610D}|MusicStore.csproj|e:\\asm-prn\\musicstore\\musicstore\\viewmodel\\artistmvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{213B6453-99D5-4E7A-B363-2C1D9E85610D}|MusicStore.csproj|solutionrelative:viewmodel\\artistmvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{213B6453-99D5-4E7A-B363-2C1D9E85610D}|MusicStore.csproj|d:\\code\\musicstore\\musicstore\\w88xb1rv.png||{177559E0-D141-11D0-92DF-00A0C9138C45}",
-      "RelativeMoniker": "D:0:0:{213B6453-99D5-4E7A-B363-2C1D9E85610D}|MusicStore.csproj|solutionrelative:w88xb1rv.png||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+      "AbsoluteMoniker": "D:0:0:{213B6453-99D5-4E7A-B363-2C1D9E85610D}|MusicStore.csproj|e:\\asm-prn\\musicstore\\musicstore\\viewmodel\\playlistviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{213B6453-99D5-4E7A-B363-2C1D9E85610D}|MusicStore.csproj|solutionrelative:viewmodel\\playlistviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{213B6453-99D5-4E7A-B363-2C1D9E85610D}|MusicStore.csproj|d:\\code\\musicstore\\musicstore\\registerpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{213B6453-99D5-4E7A-B363-2C1D9E85610D}|MusicStore.csproj|solutionrelative:registerpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{213B6453-99D5-4E7A-B363-2C1D9E85610D}|MusicStore.csproj|d:\\code\\musicstore\\musicstore\\register.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{213B6453-99D5-4E7A-B363-2C1D9E85610D}|MusicStore.csproj|solutionrelative:register.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{213B6453-99D5-4E7A-B363-2C1D9E85610D}|MusicStore.csproj|d:\\code\\musicstore\\musicstore\\password.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{213B6453-99D5-4E7A-B363-2C1D9E85610D}|MusicStore.csproj|solutionrelative:password.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{213B6453-99D5-4E7A-B363-2C1D9E85610D}|MusicStore.csproj|d:\\code\\musicstore\\musicstore\\login.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{213B6453-99D5-4E7A-B363-2C1D9E85610D}|MusicStore.csproj|e:\\asm-prn\\musicstore\\musicstore\\login.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{213B6453-99D5-4E7A-B363-2C1D9E85610D}|MusicStore.csproj|solutionrelative:login.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{213B6453-99D5-4E7A-B363-2C1D9E85610D}|MusicStore.csproj|d:\\code\\musicstore\\musicstore\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{213B6453-99D5-4E7A-B363-2C1D9E85610D}|MusicStore.csproj|solutionrelative:app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{213B6453-99D5-4E7A-B363-2C1D9E85610D}|MusicStore.csproj|e:\\asm-prn\\musicstore\\musicstore\\appmanage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{213B6453-99D5-4E7A-B363-2C1D9E85610D}|MusicStore.csproj|solutionrelative:appmanage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{213B6453-99D5-4E7A-B363-2C1D9E85610D}|MusicStore.csproj|d:\\code\\musicstore\\musicstore\\done.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{213B6453-99D5-4E7A-B363-2C1D9E85610D}|MusicStore.csproj|e:\\asm-prn\\musicstore\\musicstore\\viewmodel\\trackmvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{213B6453-99D5-4E7A-B363-2C1D9E85610D}|MusicStore.csproj|solutionrelative:viewmodel\\trackmvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{213B6453-99D5-4E7A-B363-2C1D9E85610D}|MusicStore.csproj|e:\\asm-prn\\musicstore\\musicstore\\viewmodel\\albummvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{213B6453-99D5-4E7A-B363-2C1D9E85610D}|MusicStore.csproj|solutionrelative:viewmodel\\albummvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{213B6453-99D5-4E7A-B363-2C1D9E85610D}|MusicStore.csproj|e:\\asm-prn\\musicstore\\musicstore\\viewmodel\\artistpagevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{213B6453-99D5-4E7A-B363-2C1D9E85610D}|MusicStore.csproj|solutionrelative:viewmodel\\artistpagevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{213B6453-99D5-4E7A-B363-2C1D9E85610D}|MusicStore.csproj|e:\\asm-prn\\musicstore\\musicstore\\viewmodel\\homevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{213B6453-99D5-4E7A-B363-2C1D9E85610D}|MusicStore.csproj|solutionrelative:viewmodel\\homevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{213B6453-99D5-4E7A-B363-2C1D9E85610D}|MusicStore.csproj|e:\\asm-prn\\musicstore\\musicstore\\chooseplaylist.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{213B6453-99D5-4E7A-B363-2C1D9E85610D}|MusicStore.csproj|solutionrelative:chooseplaylist.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{213B6453-99D5-4E7A-B363-2C1D9E85610D}|MusicStore.csproj|e:\\asm-prn\\musicstore\\musicstore\\viewmodel\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{213B6453-99D5-4E7A-B363-2C1D9E85610D}|MusicStore.csproj|solutionrelative:viewmodel\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{213B6453-99D5-4E7A-B363-2C1D9E85610D}|MusicStore.csproj|e:\\asm-prn\\musicstore\\musicstore\\viewmodel\\myplaylistviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{213B6453-99D5-4E7A-B363-2C1D9E85610D}|MusicStore.csproj|solutionrelative:viewmodel\\myplaylistviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{213B6453-99D5-4E7A-B363-2C1D9E85610D}|MusicStore.csproj|e:\\asm-prn\\musicstore\\musicstore\\viewmodel\\membershipvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{213B6453-99D5-4E7A-B363-2C1D9E85610D}|MusicStore.csproj|solutionrelative:viewmodel\\membershipvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{213B6453-99D5-4E7A-B363-2C1D9E85610D}|MusicStore.csproj|e:\\asm-prn\\musicstore\\musicstore\\viewmodel\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{213B6453-99D5-4E7A-B363-2C1D9E85610D}|MusicStore.csproj|solutionrelative:viewmodel\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{213B6453-99D5-4E7A-B363-2C1D9E85610D}|MusicStore.csproj|e:\\asm-prn\\musicstore\\musicstore\\viewmodel\\myprofilevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{213B6453-99D5-4E7A-B363-2C1D9E85610D}|MusicStore.csproj|solutionrelative:viewmodel\\myprofilevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{213B6453-99D5-4E7A-B363-2C1D9E85610D}|MusicStore.csproj|e:\\asm-prn\\musicstore\\musicstore\\models\\playlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{213B6453-99D5-4E7A-B363-2C1D9E85610D}|MusicStore.csproj|solutionrelative:models\\playlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{213B6453-99D5-4E7A-B363-2C1D9E85610D}|MusicStore.csproj|e:\\asm-prn\\musicstore\\musicstore\\myplaylist.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{213B6453-99D5-4E7A-B363-2C1D9E85610D}|MusicStore.csproj|solutionrelative:myplaylist.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{213B6453-99D5-4E7A-B363-2C1D9E85610D}|MusicStore.csproj|e:\\asm-prn\\musicstore\\musicstore\\viewmodel\\albumpagevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{213B6453-99D5-4E7A-B363-2C1D9E85610D}|MusicStore.csproj|solutionrelative:viewmodel\\albumpagevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{213B6453-99D5-4E7A-B363-2C1D9E85610D}|MusicStore.csproj|e:\\asm-prn\\musicstore\\musicstore\\artistpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{213B6453-99D5-4E7A-B363-2C1D9E85610D}|MusicStore.csproj|solutionrelative:artistpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{213B6453-99D5-4E7A-B363-2C1D9E85610D}|MusicStore.csproj|e:\\asm-prn\\musicstore\\musicstore\\albumpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{213B6453-99D5-4E7A-B363-2C1D9E85610D}|MusicStore.csproj|solutionrelative:albumpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{213B6453-99D5-4E7A-B363-2C1D9E85610D}|MusicStore.csproj|e:\\asm-prn\\musicstore\\musicstore\\main.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{213B6453-99D5-4E7A-B363-2C1D9E85610D}|MusicStore.csproj|solutionrelative:main.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{213B6453-99D5-4E7A-B363-2C1D9E85610D}|MusicStore.csproj|e:\\asm-prn\\musicstore\\musicstore\\viewmodel\\genremvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{213B6453-99D5-4E7A-B363-2C1D9E85610D}|MusicStore.csproj|solutionrelative:viewmodel\\genremvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{213B6453-99D5-4E7A-B363-2C1D9E85610D}|MusicStore.csproj|e:\\asm-prn\\musicstore\\musicstore\\homepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{213B6453-99D5-4E7A-B363-2C1D9E85610D}|MusicStore.csproj|solutionrelative:homepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{213B6453-99D5-4E7A-B363-2C1D9E85610D}|MusicStore.csproj|e:\\asm-prn\\musicstore\\musicstore\\registerpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{213B6453-99D5-4E7A-B363-2C1D9E85610D}|MusicStore.csproj|solutionrelative:registerpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{213B6453-99D5-4E7A-B363-2C1D9E85610D}|MusicStore.csproj|e:\\asm-prn\\musicstore\\musicstore\\done.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{213B6453-99D5-4E7A-B363-2C1D9E85610D}|MusicStore.csproj|solutionrelative:done.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{213B6453-99D5-4E7A-B363-2C1D9E85610D}|MusicStore.csproj|d:\\code\\musicstore\\musicstore\\eyes-close.png||{177559E0-D141-11D0-92DF-00A0C9138C45}",
-      "RelativeMoniker": "D:0:0:{213B6453-99D5-4E7A-B363-2C1D9E85610D}|MusicStore.csproj|solutionrelative:eyes-close.png||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+      "AbsoluteMoniker": "D:0:0:{213B6453-99D5-4E7A-B363-2C1D9E85610D}|MusicStore.csproj|e:\\asm-prn\\musicstore\\musicstore\\musiclistener.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{213B6453-99D5-4E7A-B363-2C1D9E85610D}|MusicStore.csproj|solutionrelative:musiclistener.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{213B6453-99D5-4E7A-B363-2C1D9E85610D}|MusicStore.csproj|d:\\code\\musicstore\\musicstore\\eyes.png||{177559E0-D141-11D0-92DF-00A0C9138C45}",
-      "RelativeMoniker": "D:0:0:{213B6453-99D5-4E7A-B363-2C1D9E85610D}|MusicStore.csproj|solutionrelative:eyes.png||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+      "AbsoluteMoniker": "D:0:0:{213B6453-99D5-4E7A-B363-2C1D9E85610D}|MusicStore.csproj|e:\\asm-prn\\musicstore\\musicstore\\myplaylist.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{213B6453-99D5-4E7A-B363-2C1D9E85610D}|MusicStore.csproj|solutionrelative:myplaylist.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{213B6453-99D5-4E7A-B363-2C1D9E85610D}|MusicStore.csproj|d:\\code\\musicstore\\musicstore\\viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{213B6453-99D5-4E7A-B363-2C1D9E85610D}|MusicStore.csproj|solutionrelative:viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{213B6453-99D5-4E7A-B363-2C1D9E85610D}|MusicStore.csproj|e:\\asm-prn\\musicstore\\musicstore\\myprofile.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{213B6453-99D5-4E7A-B363-2C1D9E85610D}|MusicStore.csproj|solutionrelative:myprofile.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{213B6453-99D5-4E7A-B363-2C1D9E85610D}|MusicStore.csproj|d:\\code\\musicstore\\musicstore\\userprofileregis.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{213B6453-99D5-4E7A-B363-2C1D9E85610D}|MusicStore.csproj|solutionrelative:userprofileregis.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{213B6453-99D5-4E7A-B363-2C1D9E85610D}|MusicStore.csproj|e:\\asm-prn\\musicstore\\musicstore\\models\\track.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{213B6453-99D5-4E7A-B363-2C1D9E85610D}|MusicStore.csproj|solutionrelative:models\\track.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{213B6453-99D5-4E7A-B363-2C1D9E85610D}|MusicStore.csproj|d:\\code\\musicstore\\musicstore\\models\\musicstorecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{213B6453-99D5-4E7A-B363-2C1D9E85610D}|MusicStore.csproj|e:\\asm-prn\\musicstore\\musicstore\\models\\album.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{213B6453-99D5-4E7A-B363-2C1D9E85610D}|MusicStore.csproj|solutionrelative:models\\album.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{213B6453-99D5-4E7A-B363-2C1D9E85610D}|MusicStore.csproj|e:\\asm-prn\\musicstore\\musicstore\\models\\artist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{213B6453-99D5-4E7A-B363-2C1D9E85610D}|MusicStore.csproj|solutionrelative:models\\artist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{213B6453-99D5-4E7A-B363-2C1D9E85610D}|MusicStore.csproj|e:\\asm-prn\\musicstore\\musicstore\\artistpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{213B6453-99D5-4E7A-B363-2C1D9E85610D}|MusicStore.csproj|solutionrelative:artistpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{213B6453-99D5-4E7A-B363-2C1D9E85610D}|MusicStore.csproj|e:\\asm-prn\\musicstore\\musicstore\\musicstore.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{213B6453-99D5-4E7A-B363-2C1D9E85610D}|MusicStore.csproj|solutionrelative:musicstore.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{213B6453-99D5-4E7A-B363-2C1D9E85610D}|MusicStore.csproj|e:\\asm-prn\\musicstore\\musicstore\\viewmodel\\appmanagevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{213B6453-99D5-4E7A-B363-2C1D9E85610D}|MusicStore.csproj|solutionrelative:viewmodel\\appmanagevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{213B6453-99D5-4E7A-B363-2C1D9E85610D}|MusicStore.csproj|e:\\asm-prn\\musicstore\\musicstore\\image\\fotor-ai-20230812211443.jpg||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{213B6453-99D5-4E7A-B363-2C1D9E85610D}|MusicStore.csproj|solutionrelative:image\\fotor-ai-20230812211443.jpg||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{213B6453-99D5-4E7A-B363-2C1D9E85610D}|MusicStore.csproj|e:\\asm-prn\\musicstore\\musicstore\\image\\akali-morgana-rell-quinn-va-taliyah-se-la-cac-ve-binh-tinh-tu-tiep-theo_102125.jpg||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{213B6453-99D5-4E7A-B363-2C1D9E85610D}|MusicStore.csproj|solutionrelative:image\\akali-morgana-rell-quinn-va-taliyah-se-la-cac-ve-binh-tinh-tu-tiep-theo_102125.jpg||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{213B6453-99D5-4E7A-B363-2C1D9E85610D}|MusicStore.csproj|e:\\asm-prn\\musicstore\\musicstore\\albumpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{213B6453-99D5-4E7A-B363-2C1D9E85610D}|MusicStore.csproj|solutionrelative:albumpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{213B6453-99D5-4E7A-B363-2C1D9E85610D}|MusicStore.csproj|e:\\asm-prn\\musicstore\\musicstore\\appmanage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{213B6453-99D5-4E7A-B363-2C1D9E85610D}|MusicStore.csproj|solutionrelative:appmanage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{213B6453-99D5-4E7A-B363-2C1D9E85610D}|MusicStore.csproj|e:\\asm-prn\\musicstore\\musicstore\\order page.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{213B6453-99D5-4E7A-B363-2C1D9E85610D}|MusicStore.csproj|solutionrelative:order page.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{213B6453-99D5-4E7A-B363-2C1D9E85610D}|MusicStore.csproj|e:\\asm-prn\\musicstore\\musicstore\\viewmodel\\baseviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{213B6453-99D5-4E7A-B363-2C1D9E85610D}|MusicStore.csproj|solutionrelative:viewmodel\\baseviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{213B6453-99D5-4E7A-B363-2C1D9E85610D}|MusicStore.csproj|e:\\asm-prn\\musicstore\\musicstore\\models\\musicstorecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{213B6453-99D5-4E7A-B363-2C1D9E85610D}|MusicStore.csproj|solutionrelative:models\\musicstorecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{213B6453-99D5-4E7A-B363-2C1D9E85610D}|MusicStore.csproj|d:\\code\\musicstore\\musicstore\\login.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{213B6453-99D5-4E7A-B363-2C1D9E85610D}|MusicStore.csproj|solutionrelative:login.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{213B6453-99D5-4E7A-B363-2C1D9E85610D}|MusicStore.csproj|d:\\code\\musicstore\\musicstore\\done.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{213B6453-99D5-4E7A-B363-2C1D9E85610D}|MusicStore.csproj|solutionrelative:done.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{213B6453-99D5-4E7A-B363-2C1D9E85610D}|MusicStore.csproj|d:\\code\\musicstore\\musicstore\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{213B6453-99D5-4E7A-B363-2C1D9E85610D}|MusicStore.csproj|solutionrelative:assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{213B6453-99D5-4E7A-B363-2C1D9E85610D}|MusicStore.csproj|d:\\code\\musicstore\\musicstore\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{213B6453-99D5-4E7A-B363-2C1D9E85610D}|MusicStore.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{213B6453-99D5-4E7A-B363-2C1D9E85610D}|MusicStore.csproj|d:\\code\\musicstore\\musicstore\\registerpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{213B6453-99D5-4E7A-B363-2C1D9E85610D}|MusicStore.csproj|e:\\asm-prn\\musicstore\\musicstore\\registerpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{213B6453-99D5-4E7A-B363-2C1D9E85610D}|MusicStore.csproj|solutionrelative:registerpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{213B6453-99D5-4E7A-B363-2C1D9E85610D}|MusicStore.csproj|d:\\code\\musicstore\\musicstore\\password.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{213B6453-99D5-4E7A-B363-2C1D9E85610D}|MusicStore.csproj|solutionrelative:password.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{213B6453-99D5-4E7A-B363-2C1D9E85610D}|MusicStore.csproj|e:\\asm-prn\\musicstore\\musicstore\\myprofile.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{213B6453-99D5-4E7A-B363-2C1D9E85610D}|MusicStore.csproj|solutionrelative:myprofile.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{213B6453-99D5-4E7A-B363-2C1D9E85610D}|MusicStore.csproj|d:\\code\\musicstore\\musicstore\\register.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{213B6453-99D5-4E7A-B363-2C1D9E85610D}|MusicStore.csproj|solutionrelative:register.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{213B6453-99D5-4E7A-B363-2C1D9E85610D}|MusicStore.csproj|e:\\asm-prn\\musicstore\\musicstore\\membershipwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{213B6453-99D5-4E7A-B363-2C1D9E85610D}|MusicStore.csproj|solutionrelative:membershipwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{213B6453-99D5-4E7A-B363-2C1D9E85610D}|MusicStore.csproj|d:\\code\\musicstore\\musicstore\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{213B6453-99D5-4E7A-B363-2C1D9E85610D}|MusicStore.csproj|solutionrelative:models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{213B6453-99D5-4E7A-B363-2C1D9E85610D}|MusicStore.csproj|e:\\asm-prn\\musicstore\\musicstore\\membershipwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{213B6453-99D5-4E7A-B363-2C1D9E85610D}|MusicStore.csproj|solutionrelative:membershipwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{213B6453-99D5-4E7A-B363-2C1D9E85610D}|MusicStore.csproj|d:\\code\\musicstore\\musicstore\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{213B6453-99D5-4E7A-B363-2C1D9E85610D}|MusicStore.csproj|e:\\asm-prn\\musicstore\\musicstore\\models\\membership.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{213B6453-99D5-4E7A-B363-2C1D9E85610D}|MusicStore.csproj|solutionrelative:models\\membership.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{213B6453-99D5-4E7A-B363-2C1D9E85610D}|MusicStore.csproj|e:\\asm-prn\\musicstore\\musicstore\\userprofileregis.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{213B6453-99D5-4E7A-B363-2C1D9E85610D}|MusicStore.csproj|solutionrelative:userprofileregis.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{213B6453-99D5-4E7A-B363-2C1D9E85610D}|MusicStore.csproj|e:\\asm-prn\\musicstore\\musicstore\\done.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{213B6453-99D5-4E7A-B363-2C1D9E85610D}|MusicStore.csproj|solutionrelative:done.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{213B6453-99D5-4E7A-B363-2C1D9E85610D}|MusicStore.csproj|e:\\asm-prn\\musicstore\\musicstore\\chooseplaylist.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{213B6453-99D5-4E7A-B363-2C1D9E85610D}|MusicStore.csproj|solutionrelative:chooseplaylist.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8A99461-C65D-4133-ACE4-AAA1E0206CC4}|Solution Items{D8A99461-C65D-4133-ACE4-AAA1E0206CC4}|E:\\ASM-PRN\\MusicStore\\MusicStore\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D8A99461-C65D-4133-ACE4-AAA1E0206CC4}|Solution Items{D8A99461-C65D-4133-ACE4-AAA1E0206CC4}|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{213B6453-99D5-4E7A-B363-2C1D9E85610D}|MusicStore.csproj|e:\\asm-prn\\musicstore\\musicstore\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{213B6453-99D5-4E7A-B363-2C1D9E85610D}|MusicStore.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{213B6453-99D5-4E7A-B363-2C1D9E85610D}|MusicStore.csproj|d:\\code\\musicstore\\musicstore\\ytalyygm.png||{177559E0-D141-11D0-92DF-00A0C9138C45}",
-      "RelativeMoniker": "D:0:0:{213B6453-99D5-4E7A-B363-2C1D9E85610D}|MusicStore.csproj|solutionrelative:ytalyygm.png||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+      "AbsoluteMoniker": "D:0:0:{213B6453-99D5-4E7A-B363-2C1D9E85610D}|MusicStore.csproj|e:\\asm-prn\\musicstore\\musicstore\\userprofileregis.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{213B6453-99D5-4E7A-B363-2C1D9E85610D}|MusicStore.csproj|solutionrelative:userprofileregis.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\PRN212\\VS IDE\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{213B6453-99D5-4E7A-B363-2C1D9E85610D}|MusicStore.csproj|e:\\asm-prn\\musicstore\\musicstore\\models\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{213B6453-99D5-4E7A-B363-2C1D9E85610D}|MusicStore.csproj|solutionrelative:models\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{213B6453-99D5-4E7A-B363-2C1D9E85610D}|MusicStore.csproj|d:\\code\\musicstore\\musicstore\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{213B6453-99D5-4E7A-B363-2C1D9E85610D}|MusicStore.csproj|solutionrelative:app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{213B6453-99D5-4E7A-B363-2C1D9E85610D}|MusicStore.csproj|e:\\asm-prn\\musicstore\\musicstore\\order page.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{213B6453-99D5-4E7A-B363-2C1D9E85610D}|MusicStore.csproj|solutionrelative:order page.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{213B6453-99D5-4E7A-B363-2C1D9E85610D}|MusicStore.csproj|d:\\code\\musicstore\\musicstore\\models\\track.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{213B6453-99D5-4E7A-B363-2C1D9E85610D}|MusicStore.csproj|solutionrelative:models\\track.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{213B6453-99D5-4E7A-B363-2C1D9E85610D}|MusicStore.csproj|e:\\asm-prn\\musicstore\\musicstore\\register.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{213B6453-99D5-4E7A-B363-2C1D9E85610D}|MusicStore.csproj|solutionrelative:register.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{213B6453-99D5-4E7A-B363-2C1D9E85610D}|MusicStore.csproj|e:\\asm-prn\\musicstore\\musicstore\\register.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{213B6453-99D5-4E7A-B363-2C1D9E85610D}|MusicStore.csproj|solutionrelative:register.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{213B6453-99D5-4E7A-B363-2C1D9E85610D}|MusicStore.csproj|e:\\asm-prn\\musicstore\\musicstore\\models\\listeninghistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{213B6453-99D5-4E7A-B363-2C1D9E85610D}|MusicStore.csproj|solutionrelative:models\\listeninghistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{213B6453-99D5-4E7A-B363-2C1D9E85610D}|MusicStore.csproj|e:\\asm-prn\\musicstore\\musicstore\\main.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{213B6453-99D5-4E7A-B363-2C1D9E85610D}|MusicStore.csproj|solutionrelative:main.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{213B6453-99D5-4E7A-B363-2C1D9E85610D}|MusicStore.csproj|e:\\asm-prn\\musicstore\\musicstore\\homepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{213B6453-99D5-4E7A-B363-2C1D9E85610D}|MusicStore.csproj|solutionrelative:homepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{213B6453-99D5-4E7A-B363-2C1D9E85610D}|MusicStore.csproj|e:\\asm-prn\\musicstore\\musicstore\\login.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{213B6453-99D5-4E7A-B363-2C1D9E85610D}|MusicStore.csproj|solutionrelative:login.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{213B6453-99D5-4E7A-B363-2C1D9E85610D}|MusicStore.csproj|e:\\asm-prn\\musicstore\\musicstore\\homepage.xaml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{213B6453-99D5-4E7A-B363-2C1D9E85610D}|MusicStore.csproj|solutionrelative:homepage.xaml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{213B6453-99D5-4E7A-B363-2C1D9E85610D}|MusicStore.csproj|e:\\asm-prn\\musicstore\\musicstore\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{213B6453-99D5-4E7A-B363-2C1D9E85610D}|MusicStore.csproj|solutionrelative:app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{213B6453-99D5-4E7A-B363-2C1D9E85610D}|MusicStore.csproj|e:\\asm-prn\\musicstore\\musicstore\\booleantovisibilityconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{213B6453-99D5-4E7A-B363-2C1D9E85610D}|MusicStore.csproj|solutionrelative:booleantovisibilityconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{213B6453-99D5-4E7A-B363-2C1D9E85610D}|MusicStore.csproj|e:\\asm-prn\\musicstore\\musicstore\\login.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{213B6453-99D5-4E7A-B363-2C1D9E85610D}|MusicStore.csproj|solutionrelative:login.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{213B6453-99D5-4E7A-B363-2C1D9E85610D}|MusicStore.csproj|e:\\asm-prn\\musicstore\\musicstore\\register.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{213B6453-99D5-4E7A-B363-2C1D9E85610D}|MusicStore.csproj|solutionrelative:register.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{213B6453-99D5-4E7A-B363-2C1D9E85610D}|MusicStore.csproj|e:\\asm-prn\\musicstore\\musicstore\\registerpage.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{213B6453-99D5-4E7A-B363-2C1D9E85610D}|MusicStore.csproj|solutionrelative:registerpage.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     }
   ],
   "DocumentGroupContainers": [
     {
-      "Orientation": 0,
+      "Orientation": 1,
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "DockedHeight": 1038,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ArtistMVM.cs",
+              "DocumentMoniker": "E:\\ASM-PRN\\MusicStore\\MusicStore\\ViewModel\\ArtistMVM.cs",
+              "RelativeDocumentMoniker": "ViewModel\\ArtistMVM.cs",
+              "ToolTip": "E:\\ASM-PRN\\MusicStore\\MusicStore\\ViewModel\\ArtistMVM.cs",
+              "RelativeToolTip": "ViewModel\\ArtistMVM.cs",
+              "ViewState": "AgIAAFUAAAAAAAAAAAAmwJ0AAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T09:43:39.891Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "TrackMVM.cs",
+              "DocumentMoniker": "E:\\ASM-PRN\\MusicStore\\MusicStore\\ViewModel\\TrackMVM.cs",
+              "RelativeDocumentMoniker": "ViewModel\\TrackMVM.cs",
+              "ToolTip": "E:\\ASM-PRN\\MusicStore\\MusicStore\\ViewModel\\TrackMVM.cs",
+              "RelativeToolTip": "ViewModel\\TrackMVM.cs",
+              "ViewState": "AgIAAKEAAAAAAAAAAAAxwKcAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T10:04:02.957Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Login.xaml",
+              "DocumentMoniker": "E:\\ASM-PRN\\MusicStore\\MusicStore\\Login.xaml",
+              "RelativeDocumentMoniker": "Login.xaml",
+              "ToolTip": "E:\\ASM-PRN\\MusicStore\\MusicStore\\Login.xaml",
+              "RelativeToolTip": "Login.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-01T17:50:12.943Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "w88xb1rv.png - PNG [474x266, 32 bit, PNG]",
-              "DocumentMoniker": "D:\\code\\MusicStore\\MusicStore\\w88xb1rv.png",
-              "RelativeDocumentMoniker": "w88xb1rv.png",
-              "ToolTip": "D:\\code\\MusicStore\\MusicStore\\w88xb1rv.png - PNG [474x266, 32 bit, PNG]",
-              "RelativeToolTip": "w88xb1rv.png - PNG [474x266, 32 bit, PNG]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
-              "WhenOpened": "2024-10-31T13:27:01.712Z",
-              "EditorCaption": " - PNG [474x266, 32 bit, PNG]"
+              "Title": "PlaylistViewModel.cs",
+              "DocumentMoniker": "E:\\ASM-PRN\\MusicStore\\MusicStore\\ViewModel\\PlaylistViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModel\\PlaylistViewModel.cs",
+              "ToolTip": "E:\\ASM-PRN\\MusicStore\\MusicStore\\ViewModel\\PlaylistViewModel.cs",
+              "RelativeToolTip": "ViewModel\\PlaylistViewModel.cs",
+              "ViewState": "AgIAAGEAAAAAAAAAAAAAAHEAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-08T10:25:31.04Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Main.xaml",
-              "DocumentMoniker": "D:\\code\\MusicStore\\MusicStore\\Main.xaml",
-              "RelativeDocumentMoniker": "Main.xaml",
-              "ToolTip": "D:\\code\\MusicStore\\MusicStore\\Main.xaml",
-              "RelativeToolTip": "Main.xaml",
+              "Title": "MusicListenerVM.cs",
+              "DocumentMoniker": "E:\\ASM-PRN\\MusicStore\\MusicStore\\ViewModel\\MusicListenerVM.cs",
+              "RelativeDocumentMoniker": "ViewModel\\MusicListenerVM.cs",
+              "ToolTip": "E:\\ASM-PRN\\MusicStore\\MusicStore\\ViewModel\\MusicListenerVM.cs",
+              "RelativeToolTip": "ViewModel\\MusicListenerVM.cs",
+              "ViewState": "AgIAAKwAAAAAAAAAAAAowLYAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-09T14:56:09.057Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MusicListener.xaml",
+              "DocumentMoniker": "E:\\ASM-PRN\\MusicStore\\MusicStore\\MusicListener.xaml",
+              "RelativeDocumentMoniker": "MusicListener.xaml",
+              "ToolTip": "E:\\ASM-PRN\\MusicStore\\MusicStore\\MusicListener.xaml",
+              "RelativeToolTip": "MusicListener.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-10-31T12:53:32.585Z",
+              "WhenOpened": "2024-11-09T14:47:43.984Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ArtistPageVM.cs",
+              "DocumentMoniker": "E:\\ASM-PRN\\MusicStore\\MusicStore\\ViewModel\\ArtistPageVM.cs",
+              "RelativeDocumentMoniker": "ViewModel\\ArtistPageVM.cs",
+              "ToolTip": "E:\\ASM-PRN\\MusicStore\\MusicStore\\ViewModel\\ArtistPageVM.cs",
+              "RelativeToolTip": "ViewModel\\ArtistPageVM.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAowDUAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T09:40:46.168Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "Done.xaml",
-              "DocumentMoniker": "D:\\code\\MusicStore\\MusicStore\\Done.xaml",
-              "RelativeDocumentMoniker": "Done.xaml",
-              "ToolTip": "D:\\code\\MusicStore\\MusicStore\\Done.xaml",
-              "RelativeToolTip": "Done.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-10-31T12:25:54.566Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "UserProfileRegis.xaml",
-              "DocumentMoniker": "D:\\code\\MusicStore\\MusicStore\\UserProfileRegis.xaml",
-              "RelativeDocumentMoniker": "UserProfileRegis.xaml",
-              "ToolTip": "D:\\code\\MusicStore\\MusicStore\\UserProfileRegis.xaml",
-              "RelativeToolTip": "UserProfileRegis.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-10-31T11:22:28.278Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "App.xaml",
-              "DocumentMoniker": "D:\\code\\MusicStore\\MusicStore\\App.xaml",
-              "RelativeDocumentMoniker": "App.xaml",
-              "ToolTip": "D:\\code\\MusicStore\\MusicStore\\App.xaml",
-              "RelativeToolTip": "App.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-10-30T09:06:14.775Z",
-              "EditorCaption": ""
+              "Title": "HomeVM.cs",
+              "DocumentMoniker": "E:\\ASM-PRN\\MusicStore\\MusicStore\\ViewModel\\HomeVM.cs",
+              "RelativeDocumentMoniker": "ViewModel\\HomeVM.cs",
+              "ToolTip": "E:\\ASM-PRN\\MusicStore\\MusicStore\\ViewModel\\HomeVM.cs",
+              "RelativeToolTip": "ViewModel\\HomeVM.cs",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAcwFgAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-04T13:44:17.869Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "Login.xaml",
-              "DocumentMoniker": "D:\\code\\MusicStore\\MusicStore\\Login.xaml",
-              "RelativeDocumentMoniker": "Login.xaml",
-              "ToolTip": "D:\\code\\MusicStore\\MusicStore\\Login.xaml",
-              "RelativeToolTip": "Login.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-10-30T09:07:01.447Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Main.xaml.cs",
-              "DocumentMoniker": "D:\\code\\MusicStore\\MusicStore\\Main.xaml.cs",
-              "RelativeDocumentMoniker": "Main.xaml.cs",
-              "ToolTip": "D:\\code\\MusicStore\\MusicStore\\Main.xaml.cs",
-              "RelativeToolTip": "Main.xaml.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAiwBIAAAASAAAAAAAAAA==",
+              "Title": "AlbumMVM.cs",
+              "DocumentMoniker": "E:\\ASM-PRN\\MusicStore\\MusicStore\\ViewModel\\AlbumMVM.cs",
+              "RelativeDocumentMoniker": "ViewModel\\AlbumMVM.cs",
+              "ToolTip": "E:\\ASM-PRN\\MusicStore\\MusicStore\\ViewModel\\AlbumMVM.cs",
+              "RelativeToolTip": "ViewModel\\AlbumMVM.cs",
+              "ViewState": "AgIAAM4AAAAAAAAAAAAgwHUAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-31T13:00:22.3Z",
+              "WhenOpened": "2024-11-10T10:03:00.526Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "eyes-close.png - PNG [178x133, 32 bit, PNG]",
-              "DocumentMoniker": "D:\\code\\MusicStore\\MusicStore\\eyes-close.png",
-              "RelativeDocumentMoniker": "eyes-close.png",
-              "ToolTip": "D:\\code\\MusicStore\\MusicStore\\eyes-close.png - PNG [178x133, 32 bit, PNG]",
-              "RelativeToolTip": "eyes-close.png - PNG [178x133, 32 bit, PNG]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
-              "WhenOpened": "2024-10-31T10:02:36.36Z",
-              "EditorCaption": " - PNG [178x133, 32 bit, PNG]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Password.xaml",
-              "DocumentMoniker": "D:\\code\\MusicStore\\MusicStore\\Password.xaml",
-              "RelativeDocumentMoniker": "Password.xaml",
-              "ToolTip": "D:\\code\\MusicStore\\MusicStore\\Password.xaml",
-              "RelativeToolTip": "Password.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-10-31T09:21:40.783Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "Register.xaml",
-              "DocumentMoniker": "D:\\code\\MusicStore\\MusicStore\\Register.xaml",
-              "RelativeDocumentMoniker": "Register.xaml",
-              "ToolTip": "D:\\code\\MusicStore\\MusicStore\\Register.xaml",
-              "RelativeToolTip": "Register.xaml",
+              "Title": "AppManage.xaml",
+              "DocumentMoniker": "E:\\ASM-PRN\\MusicStore\\MusicStore\\AppManage.xaml",
+              "RelativeDocumentMoniker": "AppManage.xaml",
+              "ToolTip": "E:\\ASM-PRN\\MusicStore\\MusicStore\\AppManage.xaml",
+              "RelativeToolTip": "AppManage.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-10-31T09:21:22.37Z"
+              "WhenOpened": "2024-11-10T09:15:11.843Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "RegisterPage.xaml",
-              "DocumentMoniker": "D:\\code\\MusicStore\\MusicStore\\RegisterPage.xaml",
-              "RelativeDocumentMoniker": "RegisterPage.xaml",
-              "ToolTip": "D:\\code\\MusicStore\\MusicStore\\RegisterPage.xaml",
-              "RelativeToolTip": "RegisterPage.xaml",
+              "DocumentIndex": 10,
+              "Title": "ChoosePlaylist.xaml",
+              "DocumentMoniker": "E:\\ASM-PRN\\MusicStore\\MusicStore\\ChoosePlaylist.xaml",
+              "RelativeDocumentMoniker": "ChoosePlaylist.xaml",
+              "ToolTip": "E:\\ASM-PRN\\MusicStore\\MusicStore\\ChoosePlaylist.xaml",
+              "RelativeToolTip": "ChoosePlaylist.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-10-31T10:33:10.14Z"
+              "WhenOpened": "2024-11-09T11:01:07.649Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 11,
-              "Title": "eyes.png - PNG [183x122, 32 bit, PNG]",
-              "DocumentMoniker": "D:\\code\\MusicStore\\MusicStore\\eyes.png",
-              "RelativeDocumentMoniker": "eyes.png",
-              "ToolTip": "D:\\code\\MusicStore\\MusicStore\\eyes.png - PNG [183x122, 32 bit, PNG]",
-              "RelativeToolTip": "eyes.png - PNG [183x122, 32 bit, PNG]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
-              "WhenOpened": "2024-10-31T13:26:36.538Z",
-              "EditorCaption": " - PNG [183x122, 32 bit, PNG]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "Done.xaml.cs",
-              "DocumentMoniker": "D:\\code\\MusicStore\\MusicStore\\Done.xaml.cs",
-              "RelativeDocumentMoniker": "Done.xaml.cs",
-              "ToolTip": "D:\\code\\MusicStore\\MusicStore\\Done.xaml.cs",
-              "RelativeToolTip": "Done.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "MainViewModel.cs",
+              "DocumentMoniker": "E:\\ASM-PRN\\MusicStore\\MusicStore\\ViewModel\\MainViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModel\\MainViewModel.cs",
+              "ToolTip": "E:\\ASM-PRN\\MusicStore\\MusicStore\\ViewModel\\MainViewModel.cs",
+              "RelativeToolTip": "ViewModel\\MainViewModel.cs",
+              "ViewState": "AgIAAHAAAAAAAAAAAAAcwIAAAABSAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-31T12:47:30.075Z"
+              "WhenOpened": "2024-11-09T09:04:46.896Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 12,
-              "Title": "MainViewModel.cs",
-              "DocumentMoniker": "D:\\code\\MusicStore\\MusicStore\\ViewModels\\MainViewModel.cs",
-              "RelativeDocumentMoniker": "ViewModels\\MainViewModel.cs",
-              "ToolTip": "D:\\code\\MusicStore\\MusicStore\\ViewModels\\MainViewModel.cs",
-              "RelativeToolTip": "ViewModels\\MainViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAfAAAAAAAAAA==",
+              "Title": "MyPlaylistViewModel.cs",
+              "DocumentMoniker": "E:\\ASM-PRN\\MusicStore\\MusicStore\\ViewModel\\MyPlaylistViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModel\\MyPlaylistViewModel.cs",
+              "ToolTip": "E:\\ASM-PRN\\MusicStore\\MusicStore\\ViewModel\\MyPlaylistViewModel.cs",
+              "RelativeToolTip": "ViewModel\\MyPlaylistViewModel.cs",
+              "ViewState": "AgIAAIkAAAAAAAAAAADwv5oAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-31T13:04:55.505Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "Customer.cs",
-              "DocumentMoniker": "D:\\code\\MusicStore\\MusicStore\\Models\\Customer.cs",
-              "RelativeDocumentMoniker": "Models\\Customer.cs",
-              "ToolTip": "D:\\code\\MusicStore\\MusicStore\\Models\\Customer.cs",
-              "RelativeToolTip": "Models\\Customer.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAxwAUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-31T11:30:52.81Z"
+              "WhenOpened": "2024-11-09T08:09:07.969Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 13,
-              "Title": "UserProfileRegis.xaml.cs",
-              "DocumentMoniker": "D:\\code\\MusicStore\\MusicStore\\UserProfileRegis.xaml.cs",
-              "RelativeDocumentMoniker": "UserProfileRegis.xaml.cs",
-              "ToolTip": "D:\\code\\MusicStore\\MusicStore\\UserProfileRegis.xaml.cs",
-              "RelativeToolTip": "UserProfileRegis.xaml.cs",
-              "ViewState": "AgIAAF0AAAAAAAAAAAAqwGcAAABeAAAAAAAAAA==",
+              "Title": "MembershipVM.cs",
+              "DocumentMoniker": "E:\\ASM-PRN\\MusicStore\\MusicStore\\ViewModel\\MembershipVM.cs",
+              "RelativeDocumentMoniker": "ViewModel\\MembershipVM.cs",
+              "ToolTip": "E:\\ASM-PRN\\MusicStore\\MusicStore\\ViewModel\\MembershipVM.cs",
+              "RelativeToolTip": "ViewModel\\MembershipVM.cs",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAcwD4AAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-31T11:25:17.609Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "ytalyygm.png - PNG [768x563, 32 bit, PNG]",
-              "DocumentMoniker": "D:\\code\\MusicStore\\MusicStore\\ytalyygm.png",
-              "RelativeDocumentMoniker": "ytalyygm.png",
-              "ToolTip": "D:\\code\\MusicStore\\MusicStore\\ytalyygm.png - PNG [768x563, 32 bit, PNG]",
-              "RelativeToolTip": "ytalyygm.png - PNG [768x563, 32 bit, PNG]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
-              "WhenOpened": "2024-10-31T11:25:16.947Z",
-              "EditorCaption": " - PNG [768x563, 32 bit, PNG]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "User.cs",
-              "DocumentMoniker": "D:\\code\\MusicStore\\MusicStore\\Models\\User.cs",
-              "RelativeDocumentMoniker": "Models\\User.cs",
-              "ToolTip": "D:\\code\\MusicStore\\MusicStore\\Models\\User.cs",
-              "RelativeToolTip": "Models\\User.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAxwAcAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-31T11:14:55.263Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "RegisterPage.xaml.cs",
-              "DocumentMoniker": "D:\\code\\MusicStore\\MusicStore\\RegisterPage.xaml.cs",
-              "RelativeDocumentMoniker": "RegisterPage.xaml.cs",
-              "ToolTip": "D:\\code\\MusicStore\\MusicStore\\RegisterPage.xaml.cs",
-              "RelativeToolTip": "RegisterPage.xaml.cs",
-              "ViewState": "AgIAADEAAAAAAAAAAAAcwDwAAAB8AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-31T10:33:13.587Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "Microsoft.Common.CurrentVersion.targets",
-              "DocumentMoniker": "E:\\PRN212\\VS IDE\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
-              "ToolTip": "E:\\PRN212\\VS IDE\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
-              "ViewState": "AgIAALYUAAAAAAAAAAAwwMQUAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
-              "WhenOpened": "2024-10-31T10:26:14.103Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "Register.xaml.cs",
-              "DocumentMoniker": "D:\\code\\MusicStore\\MusicStore\\Register.xaml.cs",
-              "RelativeDocumentMoniker": "Register.xaml.cs",
-              "ToolTip": "D:\\code\\MusicStore\\MusicStore\\Register.xaml.cs",
-              "RelativeToolTip": "Register.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-31T09:59:46.392Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "Password.xaml.cs",
-              "DocumentMoniker": "D:\\code\\MusicStore\\MusicStore\\Password.xaml.cs",
-              "RelativeDocumentMoniker": "Password.xaml.cs",
-              "ToolTip": "D:\\code\\MusicStore\\MusicStore\\Password.xaml.cs",
-              "RelativeToolTip": "Password.xaml.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAA1wBsAAAA0AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-31T09:45:49.01Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "AssemblyInfo.cs",
-              "DocumentMoniker": "D:\\code\\MusicStore\\MusicStore\\AssemblyInfo.cs",
-              "RelativeDocumentMoniker": "AssemblyInfo.cs",
-              "ToolTip": "D:\\code\\MusicStore\\MusicStore\\AssemblyInfo.cs",
-              "RelativeToolTip": "AssemblyInfo.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-30T09:26:16.662Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "App.xaml.cs",
-              "DocumentMoniker": "D:\\code\\MusicStore\\MusicStore\\App.xaml.cs",
-              "RelativeDocumentMoniker": "App.xaml.cs",
-              "ToolTip": "D:\\code\\MusicStore\\MusicStore\\App.xaml.cs",
-              "RelativeToolTip": "App.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-30T09:28:05.517Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Login.xaml.cs",
-              "DocumentMoniker": "D:\\code\\MusicStore\\MusicStore\\Login.xaml.cs",
-              "RelativeDocumentMoniker": "Login.xaml.cs",
-              "ToolTip": "D:\\code\\MusicStore\\MusicStore\\Login.xaml.cs",
-              "RelativeToolTip": "Login.xaml.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAABkAAAACAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-30T09:27:56.057Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "Track.cs",
-              "DocumentMoniker": "D:\\code\\MusicStore\\MusicStore\\Models\\Track.cs",
-              "RelativeDocumentMoniker": "Models\\Track.cs",
-              "ToolTip": "D:\\code\\MusicStore\\MusicStore\\Models\\Track.cs",
-              "RelativeToolTip": "Models\\Track.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAA5wAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-30T08:57:56.657Z"
+              "WhenOpened": "2024-11-09T14:16:56.572Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 14,
-              "Title": "MusicStoreContext.cs",
-              "DocumentMoniker": "D:\\code\\MusicStore\\MusicStore\\Models\\MusicStoreContext.cs",
-              "RelativeDocumentMoniker": "Models\\MusicStoreContext.cs",
-              "ToolTip": "D:\\code\\MusicStore\\MusicStore\\Models\\MusicStoreContext.cs",
-              "RelativeToolTip": "Models\\MusicStoreContext.cs",
-              "ViewState": "AgIAAMIAAAAAAAAAAADwvycAAABUAAAAAAAAAA==",
+              "Title": "LoginViewModel.cs",
+              "DocumentMoniker": "E:\\ASM-PRN\\MusicStore\\MusicStore\\ViewModel\\LoginViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModel\\LoginViewModel.cs",
+              "ToolTip": "E:\\ASM-PRN\\MusicStore\\MusicStore\\ViewModel\\LoginViewModel.cs",
+              "RelativeToolTip": "ViewModel\\LoginViewModel.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAAAowEIAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-30T08:55:52.909Z"
+              "WhenOpened": "2024-11-01T17:53:32.034Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "MyProfileVM.cs",
+              "DocumentMoniker": "E:\\ASM-PRN\\MusicStore\\MusicStore\\ViewModel\\MyProfileVM.cs",
+              "RelativeDocumentMoniker": "ViewModel\\MyProfileVM.cs",
+              "ToolTip": "E:\\ASM-PRN\\MusicStore\\MusicStore\\ViewModel\\MyProfileVM.cs",
+              "RelativeToolTip": "ViewModel\\MyProfileVM.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAowDgAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-09T12:34:54.473Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Playlist.cs",
+              "DocumentMoniker": "E:\\ASM-PRN\\MusicStore\\MusicStore\\Models\\Playlist.cs",
+              "RelativeDocumentMoniker": "Models\\Playlist.cs",
+              "ToolTip": "E:\\ASM-PRN\\MusicStore\\MusicStore\\Models\\Playlist.cs",
+              "RelativeToolTip": "Models\\Playlist.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAA5wBUAAABPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-09T06:04:23.761Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "MyPlaylist.xaml",
+              "DocumentMoniker": "E:\\ASM-PRN\\MusicStore\\MusicStore\\MyPlaylist.xaml",
+              "RelativeDocumentMoniker": "MyPlaylist.xaml",
+              "ToolTip": "E:\\ASM-PRN\\MusicStore\\MusicStore\\MyPlaylist.xaml",
+              "RelativeToolTip": "MyPlaylist.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-09T08:06:16.462Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 18,
+              "Title": "AlbumPageVM.cs",
+              "DocumentMoniker": "E:\\ASM-PRN\\MusicStore\\MusicStore\\ViewModel\\AlbumPageVM.cs",
+              "RelativeDocumentMoniker": "ViewModel\\AlbumPageVM.cs",
+              "ToolTip": "E:\\ASM-PRN\\MusicStore\\MusicStore\\ViewModel\\AlbumPageVM.cs",
+              "RelativeToolTip": "ViewModel\\AlbumPageVM.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAAAEYAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T07:45:15.767Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ArtistPage.xaml",
+              "DocumentMoniker": "E:\\ASM-PRN\\MusicStore\\MusicStore\\ArtistPage.xaml",
+              "RelativeDocumentMoniker": "ArtistPage.xaml",
+              "ToolTip": "E:\\ASM-PRN\\MusicStore\\MusicStore\\ArtistPage.xaml",
+              "RelativeToolTip": "ArtistPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-05T09:30:36.323Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "AlbumPage.xaml",
+              "DocumentMoniker": "E:\\ASM-PRN\\MusicStore\\MusicStore\\AlbumPage.xaml",
+              "RelativeDocumentMoniker": "AlbumPage.xaml",
+              "ToolTip": "E:\\ASM-PRN\\MusicStore\\MusicStore\\AlbumPage.xaml",
+              "RelativeToolTip": "AlbumPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-07T07:45:03.373Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Main.xaml",
+              "DocumentMoniker": "E:\\ASM-PRN\\MusicStore\\MusicStore\\Main.xaml",
+              "RelativeDocumentMoniker": "Main.xaml",
+              "ToolTip": "E:\\ASM-PRN\\MusicStore\\MusicStore\\Main.xaml",
+              "RelativeToolTip": "Main.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-01T17:54:15.122Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "GenreMVM.cs",
+              "DocumentMoniker": "E:\\ASM-PRN\\MusicStore\\MusicStore\\ViewModel\\GenreMVM.cs",
+              "RelativeDocumentMoniker": "ViewModel\\GenreMVM.cs",
+              "ToolTip": "E:\\ASM-PRN\\MusicStore\\MusicStore\\ViewModel\\GenreMVM.cs",
+              "RelativeToolTip": "ViewModel\\GenreMVM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T10:03:44.142Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "HomePage.xaml",
+              "DocumentMoniker": "E:\\ASM-PRN\\MusicStore\\MusicStore\\HomePage.xaml",
+              "RelativeDocumentMoniker": "HomePage.xaml",
+              "ToolTip": "E:\\ASM-PRN\\MusicStore\\MusicStore\\HomePage.xaml",
+              "RelativeToolTip": "HomePage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-04T13:28:46.553Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "RegisterPage.xaml",
+              "DocumentMoniker": "E:\\ASM-PRN\\MusicStore\\MusicStore\\RegisterPage.xaml",
+              "RelativeDocumentMoniker": "RegisterPage.xaml",
+              "ToolTip": "E:\\ASM-PRN\\MusicStore\\MusicStore\\RegisterPage.xaml",
+              "RelativeToolTip": "RegisterPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-09T13:34:00.148Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Done.xaml",
+              "DocumentMoniker": "E:\\ASM-PRN\\MusicStore\\MusicStore\\Done.xaml",
+              "RelativeDocumentMoniker": "Done.xaml",
+              "ToolTip": "E:\\ASM-PRN\\MusicStore\\MusicStore\\Done.xaml",
+              "RelativeToolTip": "Done.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-10T13:49:24.807Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "MusicListener.xaml.cs",
+              "DocumentMoniker": "E:\\ASM-PRN\\MusicStore\\MusicStore\\MusicListener.xaml.cs",
+              "RelativeDocumentMoniker": "MusicListener.xaml.cs",
+              "ToolTip": "E:\\ASM-PRN\\MusicStore\\MusicStore\\MusicListener.xaml.cs",
+              "RelativeToolTip": "MusicListener.xaml.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAAwBkAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-09T14:55:46.741Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "MyPlaylist.xaml.cs",
+              "DocumentMoniker": "E:\\ASM-PRN\\MusicStore\\MusicStore\\MyPlaylist.xaml.cs",
+              "RelativeDocumentMoniker": "MyPlaylist.xaml.cs",
+              "ToolTip": "E:\\ASM-PRN\\MusicStore\\MusicStore\\MyPlaylist.xaml.cs",
+              "RelativeToolTip": "MyPlaylist.xaml.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAiwBoAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-09T08:24:30.392Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "MyProfile.xaml.cs",
+              "DocumentMoniker": "E:\\ASM-PRN\\MusicStore\\MusicStore\\MyProfile.xaml.cs",
+              "RelativeDocumentMoniker": "MyProfile.xaml.cs",
+              "ToolTip": "E:\\ASM-PRN\\MusicStore\\MusicStore\\MyProfile.xaml.cs",
+              "RelativeToolTip": "MyProfile.xaml.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAAABsAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-09T05:44:52.743Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Album.cs",
+              "DocumentMoniker": "E:\\ASM-PRN\\MusicStore\\MusicStore\\Models\\Album.cs",
+              "RelativeDocumentMoniker": "Models\\Album.cs",
+              "ToolTip": "E:\\ASM-PRN\\MusicStore\\MusicStore\\Models\\Album.cs",
+              "RelativeToolTip": "Models\\Album.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwA8AAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-06T10:13:21.4Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Artist.cs",
+              "DocumentMoniker": "E:\\ASM-PRN\\MusicStore\\MusicStore\\Models\\Artist.cs",
+              "RelativeDocumentMoniker": "Models\\Artist.cs",
+              "ToolTip": "E:\\ASM-PRN\\MusicStore\\MusicStore\\Models\\Artist.cs",
+              "RelativeToolTip": "Models\\Artist.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T08:52:20.686Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Track.cs",
+              "DocumentMoniker": "E:\\ASM-PRN\\MusicStore\\MusicStore\\Models\\Track.cs",
+              "RelativeDocumentMoniker": "Models\\Track.cs",
+              "ToolTip": "E:\\ASM-PRN\\MusicStore\\MusicStore\\Models\\Track.cs",
+              "RelativeToolTip": "Models\\Track.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBMAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-09T06:04:20.314Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "ArtistPage.xaml.cs",
+              "DocumentMoniker": "E:\\ASM-PRN\\MusicStore\\MusicStore\\ArtistPage.xaml.cs",
+              "RelativeDocumentMoniker": "ArtistPage.xaml.cs",
+              "ToolTip": "E:\\ASM-PRN\\MusicStore\\MusicStore\\ArtistPage.xaml.cs",
+              "RelativeToolTip": "ArtistPage.xaml.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAiwBsAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-06T08:01:11.908Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "MusicStore.csproj",
+              "DocumentMoniker": "E:\\ASM-PRN\\MusicStore\\MusicStore\\MusicStore.csproj",
+              "RelativeDocumentMoniker": "MusicStore.csproj",
+              "ToolTip": "E:\\ASM-PRN\\MusicStore\\MusicStore\\MusicStore.csproj",
+              "RelativeToolTip": "MusicStore.csproj",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABgAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-11-09T17:08:25.229Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "AppManageVM.cs",
+              "DocumentMoniker": "E:\\ASM-PRN\\MusicStore\\MusicStore\\ViewModel\\AppManageVM.cs",
+              "RelativeDocumentMoniker": "ViewModel\\AppManageVM.cs",
+              "ToolTip": "E:\\ASM-PRN\\MusicStore\\MusicStore\\ViewModel\\AppManageVM.cs",
+              "RelativeToolTip": "ViewModel\\AppManageVM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T10:01:58.664Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "fotor-ai-20230812211443.jpg - Bitmap [1136x1536, 24 bit, JPG]",
+              "DocumentMoniker": "E:\\ASM-PRN\\MusicStore\\MusicStore\\Image\\fotor-ai-20230812211443.jpg",
+              "RelativeDocumentMoniker": "Image\\fotor-ai-20230812211443.jpg",
+              "ToolTip": "E:\\ASM-PRN\\MusicStore\\MusicStore\\Image\\fotor-ai-20230812211443.jpg - Bitmap [1136x1536, 24 bit, JPG]",
+              "RelativeToolTip": "Image\\fotor-ai-20230812211443.jpg - Bitmap [1136x1536, 24 bit, JPG]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2024-11-10T11:15:11.228Z",
+              "EditorCaption": " - Bitmap [1136x1536, 24 bit, JPG]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "akali-morgana-rell-quinn-va-taliyah-se-la-cac-ve-binh-tinh-tu-tiep-theo_102125.jpg - Bitmap [1496x2000, 24 bit, JPG]",
+              "DocumentMoniker": "E:\\ASM-PRN\\MusicStore\\MusicStore\\Image\\akali-morgana-rell-quinn-va-taliyah-se-la-cac-ve-binh-tinh-tu-tiep-theo_102125.jpg",
+              "RelativeDocumentMoniker": "Image\\akali-morgana-rell-quinn-va-taliyah-se-la-cac-ve-binh-tinh-tu-tiep-theo_102125.jpg",
+              "ToolTip": "E:\\ASM-PRN\\MusicStore\\MusicStore\\Image\\akali-morgana-rell-quinn-va-taliyah-se-la-cac-ve-binh-tinh-tu-tiep-theo_102125.jpg - Bitmap [1496x2000, 24 bit, JPG]",
+              "RelativeToolTip": "Image\\akali-morgana-rell-quinn-va-taliyah-se-la-cac-ve-binh-tinh-tu-tiep-theo_102125.jpg - Bitmap [1496x2000, 24 bit, JPG]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2024-11-10T11:13:35.739Z",
+              "EditorCaption": " - Bitmap [1496x2000, 24 bit, JPG]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "AlbumPage.xaml.cs",
+              "DocumentMoniker": "E:\\ASM-PRN\\MusicStore\\MusicStore\\AlbumPage.xaml.cs",
+              "RelativeDocumentMoniker": "AlbumPage.xaml.cs",
+              "ToolTip": "E:\\ASM-PRN\\MusicStore\\MusicStore\\AlbumPage.xaml.cs",
+              "RelativeToolTip": "AlbumPage.xaml.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAqwBwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T08:04:30.353Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "BaseViewModel.cs",
+              "DocumentMoniker": "E:\\ASM-PRN\\MusicStore\\MusicStore\\ViewModel\\BaseViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModel\\BaseViewModel.cs",
+              "ToolTip": "E:\\ASM-PRN\\MusicStore\\MusicStore\\ViewModel\\BaseViewModel.cs",
+              "RelativeToolTip": "ViewModel\\BaseViewModel.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAB4AAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-01T17:52:53.63Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "AppManage.xaml.cs",
+              "DocumentMoniker": "E:\\ASM-PRN\\MusicStore\\MusicStore\\AppManage.xaml.cs",
+              "RelativeDocumentMoniker": "AppManage.xaml.cs",
+              "ToolTip": "E:\\ASM-PRN\\MusicStore\\MusicStore\\AppManage.xaml.cs",
+              "RelativeToolTip": "AppManage.xaml.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAAABoAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T10:04:41.201Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "Order Page.xaml",
+              "DocumentMoniker": "E:\\ASM-PRN\\MusicStore\\MusicStore\\Order Page.xaml",
+              "RelativeDocumentMoniker": "Order Page.xaml",
+              "ToolTip": "E:\\ASM-PRN\\MusicStore\\MusicStore\\Order Page.xaml",
+              "RelativeToolTip": "Order Page.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-08T10:00:11.182Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "MusicStoreContext.cs",
+              "DocumentMoniker": "E:\\ASM-PRN\\MusicStore\\MusicStore\\Models\\MusicStoreContext.cs",
+              "RelativeDocumentMoniker": "Models\\MusicStoreContext.cs",
+              "ToolTip": "E:\\ASM-PRN\\MusicStore\\MusicStore\\Models\\MusicStoreContext.cs",
+              "RelativeToolTip": "Models\\MusicStoreContext.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAA7wAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-09T05:20:17.235Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "RegisterPage.xaml.cs",
+              "DocumentMoniker": "E:\\ASM-PRN\\MusicStore\\MusicStore\\RegisterPage.xaml.cs",
+              "RelativeDocumentMoniker": "RegisterPage.xaml.cs",
+              "ToolTip": "E:\\ASM-PRN\\MusicStore\\MusicStore\\RegisterPage.xaml.cs",
+              "RelativeToolTip": "RegisterPage.xaml.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-09T07:07:54.086Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "MyProfile.xaml",
+              "DocumentMoniker": "E:\\ASM-PRN\\MusicStore\\MusicStore\\MyProfile.xaml",
+              "RelativeDocumentMoniker": "MyProfile.xaml",
+              "ToolTip": "E:\\ASM-PRN\\MusicStore\\MusicStore\\MyProfile.xaml",
+              "RelativeToolTip": "MyProfile.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-09T05:33:42.498Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "MembershipWindow.xaml",
+              "DocumentMoniker": "E:\\ASM-PRN\\MusicStore\\MusicStore\\MembershipWindow.xaml",
+              "RelativeDocumentMoniker": "MembershipWindow.xaml",
+              "ToolTip": "E:\\ASM-PRN\\MusicStore\\MusicStore\\MembershipWindow.xaml",
+              "RelativeToolTip": "MembershipWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-09T14:32:16.774Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "MembershipWindow.xaml.cs",
+              "DocumentMoniker": "E:\\ASM-PRN\\MusicStore\\MusicStore\\MembershipWindow.xaml.cs",
+              "RelativeDocumentMoniker": "MembershipWindow.xaml.cs",
+              "ToolTip": "E:\\ASM-PRN\\MusicStore\\MusicStore\\MembershipWindow.xaml.cs",
+              "RelativeToolTip": "MembershipWindow.xaml.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAAABkAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-09T14:32:35.425Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "Membership.cs",
+              "DocumentMoniker": "E:\\ASM-PRN\\MusicStore\\MusicStore\\Models\\Membership.cs",
+              "RelativeDocumentMoniker": "Models\\Membership.cs",
+              "ToolTip": "E:\\ASM-PRN\\MusicStore\\MusicStore\\Models\\Membership.cs",
+              "RelativeToolTip": "Models\\Membership.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAA1wAsAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-09T14:22:28.956Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "UserProfileRegis.xaml.cs",
+              "DocumentMoniker": "E:\\ASM-PRN\\MusicStore\\MusicStore\\UserProfileRegis.xaml.cs",
+              "RelativeDocumentMoniker": "UserProfileRegis.xaml.cs",
+              "ToolTip": "E:\\ASM-PRN\\MusicStore\\MusicStore\\UserProfileRegis.xaml.cs",
+              "RelativeToolTip": "UserProfileRegis.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-09T13:51:39.97Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "Done.xaml.cs",
+              "DocumentMoniker": "E:\\ASM-PRN\\MusicStore\\MusicStore\\Done.xaml.cs",
+              "RelativeDocumentMoniker": "Done.xaml.cs",
+              "ToolTip": "E:\\ASM-PRN\\MusicStore\\MusicStore\\Done.xaml.cs",
+              "RelativeToolTip": "Done.xaml.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T09:56:01.318Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "ChoosePlaylist.xaml.cs",
+              "DocumentMoniker": "E:\\ASM-PRN\\MusicStore\\MusicStore\\ChoosePlaylist.xaml.cs",
+              "RelativeDocumentMoniker": "ChoosePlaylist.xaml.cs",
+              "ToolTip": "E:\\ASM-PRN\\MusicStore\\MusicStore\\ChoosePlaylist.xaml.cs",
+              "RelativeToolTip": "ChoosePlaylist.xaml.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABQAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-09T11:22:40.585Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "User.cs",
+              "DocumentMoniker": "E:\\ASM-PRN\\MusicStore\\MusicStore\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Models\\User.cs",
+              "ToolTip": "E:\\ASM-PRN\\MusicStore\\MusicStore\\Models\\User.cs",
+              "RelativeToolTip": "Models\\User.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAcAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-09T05:44:42.288Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "UserProfileRegis.xaml",
+              "DocumentMoniker": "E:\\ASM-PRN\\MusicStore\\MusicStore\\UserProfileRegis.xaml",
+              "RelativeDocumentMoniker": "UserProfileRegis.xaml",
+              "ToolTip": "E:\\ASM-PRN\\MusicStore\\MusicStore\\UserProfileRegis.xaml",
+              "RelativeToolTip": "UserProfileRegis.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-05T09:55:48.373Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "Role.cs",
+              "DocumentMoniker": "E:\\ASM-PRN\\MusicStore\\MusicStore\\Models\\Role.cs",
+              "RelativeDocumentMoniker": "Models\\Role.cs",
+              "ToolTip": "E:\\ASM-PRN\\MusicStore\\MusicStore\\Models\\Role.cs",
+              "RelativeToolTip": "Models\\Role.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-09T13:26:02.911Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "Order Page.xaml.cs",
+              "DocumentMoniker": "E:\\ASM-PRN\\MusicStore\\MusicStore\\Order Page.xaml.cs",
+              "RelativeDocumentMoniker": "Order Page.xaml.cs",
+              "ToolTip": "E:\\ASM-PRN\\MusicStore\\MusicStore\\Order Page.xaml.cs",
+              "RelativeToolTip": "Order Page.xaml.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAMwBkAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-08T10:25:08.259Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "Register.xaml",
+              "DocumentMoniker": "E:\\ASM-PRN\\MusicStore\\MusicStore\\Register.xaml",
+              "RelativeDocumentMoniker": "Register.xaml",
+              "ToolTip": "E:\\ASM-PRN\\MusicStore\\MusicStore\\Register.xaml",
+              "RelativeToolTip": "Register.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-09T08:21:19.674Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "Register.xaml.cs",
+              "DocumentMoniker": "E:\\ASM-PRN\\MusicStore\\MusicStore\\Register.xaml.cs",
+              "RelativeDocumentMoniker": "Register.xaml.cs",
+              "ToolTip": "E:\\ASM-PRN\\MusicStore\\MusicStore\\Register.xaml.cs",
+              "RelativeToolTip": "Register.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-09T07:08:02.82Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "ListeningHistory.cs",
+              "DocumentMoniker": "E:\\ASM-PRN\\MusicStore\\MusicStore\\Models\\ListeningHistory.cs",
+              "RelativeDocumentMoniker": "Models\\ListeningHistory.cs",
+              "ToolTip": "E:\\ASM-PRN\\MusicStore\\MusicStore\\Models\\ListeningHistory.cs",
+              "RelativeToolTip": "Models\\ListeningHistory.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAxwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-09T05:55:23.438Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
               "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\code\\MusicStore\\MusicStore\\appsettings.json",
+              "DocumentMoniker": "E:\\ASM-PRN\\MusicStore\\MusicStore\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "D:\\code\\MusicStore\\MusicStore\\appsettings.json",
+              "ToolTip": "E:\\ASM-PRN\\MusicStore\\MusicStore\\appsettings.json",
               "RelativeToolTip": "appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAABdAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-10-30T08:42:03.24Z"
+              "WhenOpened": "2024-11-09T05:20:55.575Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "Main.xaml.cs",
+              "DocumentMoniker": "E:\\ASM-PRN\\MusicStore\\MusicStore\\Main.xaml.cs",
+              "RelativeDocumentMoniker": "Main.xaml.cs",
+              "ToolTip": "E:\\ASM-PRN\\MusicStore\\MusicStore\\Main.xaml.cs",
+              "RelativeToolTip": "Main.xaml.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAiwCAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-01T17:54:22.002Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "HomePage.xaml.cs",
+              "DocumentMoniker": "E:\\ASM-PRN\\MusicStore\\MusicStore\\HomePage.xaml.cs",
+              "RelativeDocumentMoniker": "HomePage.xaml.cs",
+              "ToolTip": "E:\\ASM-PRN\\MusicStore\\MusicStore\\HomePage.xaml.cs",
+              "RelativeToolTip": "HomePage.xaml.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAAABoAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-04T13:39:05.909Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "Login.xaml.cs",
+              "DocumentMoniker": "E:\\ASM-PRN\\MusicStore\\MusicStore\\Login.xaml.cs",
+              "RelativeDocumentMoniker": "Login.xaml.cs",
+              "ToolTip": "E:\\ASM-PRN\\MusicStore\\MusicStore\\Login.xaml.cs",
+              "RelativeToolTip": "Login.xaml.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAAABkAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-04T13:37:18.674Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "HomePage.xaml",
+              "DocumentMoniker": "E:\\ASM-PRN\\MusicStore\\MusicStore\\HomePage.xaml",
+              "RelativeDocumentMoniker": "HomePage.xaml",
+              "ToolTip": "E:\\ASM-PRN\\MusicStore\\MusicStore\\HomePage.xaml",
+              "RelativeToolTip": "HomePage.xaml",
+              "ViewState": "AgIAAH8AAAAAAAAAAAAUwIUAAABlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-07T06:53:16.383Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "App.xaml",
+              "DocumentMoniker": "E:\\ASM-PRN\\MusicStore\\MusicStore\\App.xaml",
+              "RelativeDocumentMoniker": "App.xaml",
+              "ToolTip": "E:\\ASM-PRN\\MusicStore\\MusicStore\\App.xaml",
+              "RelativeToolTip": "App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-01T18:00:28.521Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "BooleanToVisibilityConverter.cs",
+              "DocumentMoniker": "E:\\ASM-PRN\\MusicStore\\MusicStore\\BooleanToVisibilityConverter.cs",
+              "RelativeDocumentMoniker": "BooleanToVisibilityConverter.cs",
+              "ToolTip": "E:\\ASM-PRN\\MusicStore\\MusicStore\\BooleanToVisibilityConverter.cs",
+              "RelativeToolTip": "BooleanToVisibilityConverter.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwBcAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-04T13:32:39.848Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "Login.xaml",
+              "DocumentMoniker": "E:\\ASM-PRN\\MusicStore\\MusicStore\\Login.xaml",
+              "RelativeDocumentMoniker": "Login.xaml",
+              "ToolTip": "E:\\ASM-PRN\\MusicStore\\MusicStore\\Login.xaml",
+              "RelativeToolTip": "Login.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-01T17:50:06.628Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "Register.xaml",
+              "DocumentMoniker": "E:\\ASM-PRN\\MusicStore\\MusicStore\\Register.xaml",
+              "RelativeDocumentMoniker": "Register.xaml",
+              "ToolTip": "E:\\ASM-PRN\\MusicStore\\MusicStore\\Register.xaml",
+              "RelativeToolTip": "Register.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-01T17:50:05.225Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 66,
+              "Title": "RegisterPage.xaml",
+              "DocumentMoniker": "E:\\ASM-PRN\\MusicStore\\MusicStore\\RegisterPage.xaml",
+              "RelativeDocumentMoniker": "RegisterPage.xaml",
+              "ToolTip": "E:\\ASM-PRN\\MusicStore\\MusicStore\\RegisterPage.xaml",
+              "RelativeToolTip": "RegisterPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-01T17:50:04Z"
             }
           ]
         }

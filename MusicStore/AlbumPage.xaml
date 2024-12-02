@@ -1,0 +1,90 @@
+﻿<Page x:Class="MusicStore.AlbumPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:MusicStore"
+      xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="AlbumPage">
+
+    <Grid Margin="0,10,136,108">
+        <Image HorizontalAlignment="Left" Height="132"
+               VerticalAlignment="Top" Width="130"
+               Margin="10,36,0,0"
+               Source="{Binding CoverImage}"
+               Stretch="Uniform"/>
+        <TextBlock HorizontalAlignment="Center" Height="96" Margin="0,80,0,0" TextWrapping="Wrap" Text="{Binding AlbumName}" VerticalAlignment="Top" Width="382" FontSize="72" FontWeight="Bold" FontFamily="Arial Black" Foreground="White"/>
+        <ScrollViewer VerticalScrollBarVisibility="Visible" Height="300" Margin="-10,236,10,10">
+            <ItemsControl ItemsSource="{Binding ListTrack}">
+                    <ItemsControl.ItemTemplate>
+                        <DataTemplate>
+                            <materialDesign:Card Height="100" Margin="5" Foreground="White" Width="1236">
+                                <materialDesign:Card.Style>
+                                    <Style TargetType="materialDesign:Card">
+                                        <Setter Property="Background" Value="{x:Null}"/>
+                                        <Setter Property="Opacity" Value="1"/>
+                                        <Style.Triggers>
+                                            <Trigger Property="IsMouseOver" Value="True">
+                                                <Setter Property="Background">
+                                                    <Setter.Value>
+                                                        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                                            <GradientStop Color="#FF1A1A1A" Offset="0.0"/>
+                                                            <GradientStop Color="#FF757575" Offset="1.0"/>
+                                                        </LinearGradientBrush>
+                                                    </Setter.Value>
+                                                </Setter>
+                                                <Setter Property="Opacity" Value="0.8"/>
+                                            </Trigger>
+                                        </Style.Triggers>
+                                    </Style>
+                                </materialDesign:Card.Style>
+                                <Grid x:Name="CardGrid" Margin="0,0,208,0">
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="Auto"/>
+                                        <ColumnDefinition Width="*"/>
+                                        <ColumnDefinition Width="*"/>
+                                    </Grid.ColumnDefinitions>
+                                    <materialDesign:PackIcon x:Name="PlayIcon" Kind="Play" Width="100" Height="100" VerticalAlignment="Center">
+                                        <materialDesign:PackIcon.Style>
+                                            <Style TargetType="materialDesign:PackIcon">
+                                                <Setter Property="Opacity" Value="0"/>
+                                                <Style.Triggers>
+                                                    <DataTrigger Binding="{Binding IsMouseOver, ElementName=CardGrid}" Value="True">
+                                                        <Setter Property="Opacity" Value="1"/>
+                                                    </DataTrigger>
+                                                </Style.Triggers>
+                                            </Style>
+                                        </materialDesign:PackIcon.Style>
+                                    </materialDesign:PackIcon>
+                                    <TextBlock x:Name="id" Text="{Binding TrackId}" VerticalAlignment="Center" Margin="10" FontSize="22" TextAlignment="Center"/>
+                                    <TextBlock Grid.Column="1" Text="{Binding Title}" VerticalAlignment="Top" Margin="50,34,10,0" Height="40" FontSize="22"/>
+                                    <TextBlock Grid.Column="1" Text="{Binding Duration, StringFormat={}{0:mm\\:ss}}" VerticalAlignment="Top" Margin="400,38,10,0" Height="40" FontSize="22" TextAlignment="Center"/>
+                                    <StackPanel Orientation="Horizontal" Grid.Column="2" VerticalAlignment="Center" Margin="0,0,0,0">
+                                        <Button Background="{x:Null}" Foreground="#FF0A0A0A" BorderBrush="{x:Null}"
+                                                Command="{Binding DataContext.ChoosePlaylistCommand, RelativeSource={RelativeSource AncestorType=Page}}" CommandParameter="{Binding ElementName=id}" IsEnabled="True"
+                                                >
+                                            <Button.Style>
+                                                <Style TargetType="{x:Type Button}">
+                                                    <Setter Property="Background" Value="{x:Null}"/>
+                                                    <Style.Triggers>
+                                                        <Trigger Property="IsMouseOver" Value="True">
+                                                            <Setter Property="Background" Value="DarkSlateGray"/>
+                                                            <Setter Property="Cursor" Value="Hand"/>
+                                                        </Trigger>
+                                                    </Style.Triggers>
+                                                </Style>
+                                            </Button.Style>
+                                            <materialDesign:PackIcon Kind="Plus" Height="30" Width="30" Foreground="#FFB3B3B3"/>
+                                        </Button>
+                                    </StackPanel>
+                                </Grid>
+                            </materialDesign:Card>
+                        </DataTemplate>
+                    </ItemsControl.ItemTemplate>
+                </ItemsControl>
+        </ScrollViewer>
+
+    </Grid>
+</Page>

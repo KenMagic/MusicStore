@@ -11,7 +11,8 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
-
+using MusicStore.View;
+using MusicStore.ViewModel;
 namespace MusicStore
 {
     /// <summary>
@@ -22,12 +23,13 @@ namespace MusicStore
         public Main()
         {
             InitializeComponent();
-
+            DataContext = new MainViewModel();
         }
 
         private void TextBox_TextChanged(object sender, TextChangedEventArgs e)
         {
 
         }
+  
     }
 }

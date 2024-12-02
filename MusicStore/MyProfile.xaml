@@ -1,0 +1,56 @@
+﻿<Page x:Class="MusicStore.MyProfile"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:MusicStore"
+      mc:Ignorable="d" 
+       Width="{Binding Source={x:Static SystemParameters.PrimaryScreenWidth}}"
+ Height="{Binding Source={x:Static SystemParameters.PrimaryScreenHeight}}"
+      Title="MyProfile">
+
+    <Grid>
+        
+        <TextBlock Width="704" Text="{Binding UserRole}" FontSize="24" FontWeight="Bold" Foreground="White" HorizontalAlignment="Center" Margin="0,-2,0,694"/>
+        <!-- Split the profile details into two parts -->
+        <Grid Margin="0,72,0,-72">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+            <!-- Left part: username, password, name, current membership -->
+            <StackPanel Grid.Column="0" Margin="20">
+                <TextBlock Text="Username:" FontSize="16" Foreground="White" />
+                <TextBlock Text="{Binding User.Username}" FontSize="16" Foreground="White" Background="Transparent" Margin="5"/>
+                <TextBlock Text="Password:" FontSize="16" Foreground="White" />
+                <TextBlock Text="{Binding User.Password}" FontSize="16" Foreground="White" Background="Transparent" Margin="5"/>
+
+                <TextBlock Text="Current Membership:" FontSize="16" Foreground="White" />
+                <TextBlock Text="{Binding Membership}" FontSize="16" Foreground="White" Background="Transparent" Margin="5"/>
+                <Button
+                    Margin="50"
+  Width="300"
+  Content="Become a member"
+                    Command="{Binding MembershipCommand}"
+                    
+  IsEnabled="{Binding DataContext.ControlsEnabled, RelativeSource={RelativeSource AncestorType={x:Type Window}, Mode=FindAncestor}}"
+  Style="{StaticResource MaterialDesignRaisedSecondaryButton}"
+  ToolTip="Resource name: MaterialDesignRaisedSecondaryButton" Background="#FF01A012" BorderBrush="#FF023700"
+  >
+                    
+                </Button>
+            </StackPanel>
+            <!-- Right part: Name, Email, Phone, Address -->
+            <StackPanel Grid.Column="1" Margin="20">
+                <TextBlock Text="Name:" FontSize="16" Foreground="White" />
+                <TextBlock Text="{Binding User.Customer.Name}" FontSize="16" Foreground="White" Background="Transparent" Margin="5"/>
+                <TextBlock Text="Email:" FontSize="16" Foreground="White" />
+                <TextBlock Text="{Binding User.Customer.Email}" FontSize="16" Foreground="White" Background="Transparent" Margin="5"/>
+                <TextBlock Text="Phone:" FontSize="16" Foreground="White" />
+                <TextBlock Text="{Binding User.Customer.Phone}" FontSize="16" Foreground="White" Background="Transparent" Margin="5"/>
+                <TextBlock Text="Address:" FontSize="16" Foreground="White" />
+                <TextBlock Text="{Binding User.Customer.Address}" FontSize="16" Foreground="White" Background="Transparent" Margin="5"/>
+            </StackPanel>
+        </Grid>
+    </Grid>
+</Page>

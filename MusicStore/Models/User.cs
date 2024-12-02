@@ -16,4 +16,6 @@ public partial class User
     public DateTime? CreatedAt { get; set; }
 
     public virtual Customer? Customer { get; set; }
+
+    public virtual ICollection<Role> Roles { get; set; } = new List<Role>();
 }

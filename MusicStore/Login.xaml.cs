@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MusicStore.ViewModel;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -19,9 +20,10 @@ namespace MusicStore.View
     /// </summary>
     public partial class Login : Window
     {
-        public Login()
+        public Login(MainViewModel mvm)
         {
             InitializeComponent();
+            DataContext = new LoginViewModel(mvm);
         }
   
     }

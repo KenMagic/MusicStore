@@ -13,15 +13,17 @@
     <None Remove="a3767495911_161-e1713060342543.jpg" />
     <None Remove="ac5e2e34-2e60-4c5e-aa5a-d3ed311fd6c7.sized-1000x1000-e1713060607184.jpeg" />
     <None Remove="Benson-Boone-‘Fireworks-And-Rollerblades-340x340.jpg" />
-    <None Remove="eyes-close.png" />
-    <None Remove="eyes.png" />
     <None Remove="logo.jfif" />
     <None Remove="logo.png" />
     <None Remove="w88xb1rv.png" />
     <None Remove="ytalyygm.png" />
+	     
+     <Content Include="Audio\*.mp3"> <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory> </Content>
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="MaterialDesignColors" Version="3.1.0" />
+    <PackageReference Include="MaterialDesignThemes" Version="5.1.0" />
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="9.0.0-rc.2.24474.1" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="9.0.0-rc.2.24474.1">
       <PrivateAssets>all</PrivateAssets>
@@ -34,6 +36,7 @@
     </PackageReference>
     <PackageReference Include="Microsoft.Extensions.Configuration" Version="8.0.0" />
     <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="8.0.1" />
+    <PackageReference Include="Microsoft.Xaml.Behaviors.Wpf" Version="1.1.135" />
   </ItemGroup>
 
   <ItemGroup>
@@ -45,12 +48,13 @@
     <Resource Include="a3767495911_161-e1713060342543.jpg" />
     <Resource Include="ac5e2e34-2e60-4c5e-aa5a-d3ed311fd6c7.sized-1000x1000-e1713060607184.jpeg" />
     <Resource Include="Benson-Boone-‘Fireworks-And-Rollerblades-340x340.jpg" />
-    <Resource Include="eyes-close.png" />
-    <Resource Include="eyes.png" />
     <Resource Include="logo.jfif" />
     <Resource Include="logo.png" />
     <Resource Include="w88xb1rv.png" />
     <Resource Include="ytalyygm.png" />
+   <Resource Include="Image\*.{jpg,png,gif,bmp}">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
   </ItemGroup>
 
   <ItemGroup>

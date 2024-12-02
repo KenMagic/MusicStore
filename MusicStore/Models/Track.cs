@@ -13,11 +13,11 @@ public partial class Track
 
     public TimeOnly? Duration { get; set; }
 
-    public int? TrackNumber { get; set; }
-
-    public string? FilePath { get; set; }
+    public string? Path { get; set; }
 
     public string? CoverImage { get; set; }
 
     public virtual Album? Album { get; set; }
+
+    public virtual ICollection<Playlist> Playlists { get; set; } = new List<Playlist>();
 }

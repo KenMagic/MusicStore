@@ -109,7 +109,7 @@ namespace MusicStore {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/MusicStore;V1.0.0.0;component/userprofileregis.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/MusicStore;component/userprofileregis.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\UserProfileRegis.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

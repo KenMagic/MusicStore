@@ -1,19 +1,51 @@
 ﻿<Window x:Class="MusicStore.Main"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes" 
+        xmlns:local="clr-namespace:MusicStore"
+        xmlns:i="http://schemas.microsoft.com/xaml/behaviors"
+        WindowState="Maximized" 
         Width="{Binding Source={x:Static SystemParameters.PrimaryScreenWidth}}"
         Height="{Binding Source={x:Static SystemParameters.PrimaryScreenHeight}}"
         Background="Black">
 
+    <Window.Resources>
+        <local:BooleanToVisibilityConverter x:Key="BooleanToVisibilityConverter"/>
+        <Style TargetType="Menu" x:Key="RoundedMenuStyle">
+            <Setter Property="Background" Value="White"/>
+            <Setter Property="Foreground" Value="Black"/>
+            <Setter Property="Padding" Value="5"/>
+            <Setter Property="Margin" Value="10"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Menu">
+                        <Border Background="{TemplateBinding Background}" CornerRadius="50" Padding="{TemplateBinding Padding}" BorderBrush="Gray" BorderThickness="1">
+                            <StackPanel>
+                                <ItemsPresenter/>
+                            </StackPanel>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+       
+    </Window.Resources>
 
     <Grid>
         <!-- Sidebar -->
         <StackPanel Background="#181818" Width="250" HorizontalAlignment="Left">
             <!-- Library Icon and Playlist Button -->
             <Image Source="/ytalyygm.png" Width="150" Height="50" Margin="10,20"/>
-            <Button Content="☰ Thư viện" Foreground="White" Background="Transparent" FontSize="18" Padding="10" HorizontalContentAlignment="Left" BorderBrush="Transparent"/>
-            <Button Content="Tạo danh sách phát" Foreground="White" Background="#333" Margin="10,20,10,0" Padding="10" BorderBrush="Transparent" HorizontalContentAlignment="Center" FontSize="14"/>
-            <Button Content="Duyệt xem podcast" Foreground="White" Background="#333" Margin="10,10,10,0" Padding="10" BorderBrush="Transparent" HorizontalContentAlignment="Center" FontSize="14"/>
+            <Button Content="Quản lí App" Foreground="White"
+                    Background="#333" Margin="10,20,10,0" Padding="10" 
+                    Visibility="{Binding IsAdmin, Converter={StaticResource BooleanToVisibilityConverter}}"
+                    Command="{Binding AppManageCommand}"
+                    BorderBrush="Transparent" HorizontalContentAlignment="Center" FontSize="14" Height="38"/>
+            <Button Content="Nghe nhạc" Foreground="White"
+        Background="#333" Padding="10" Margin="10,20,10,0"
+        Visibility="{Binding IsAdmin, ConverterParameter=Invert, Converter={StaticResource BooleanToVisibilityConverter}}"
+                    Command="{Binding MusicListener}"
+        BorderBrush="Transparent" HorizontalContentAlignment="Center" FontSize="14" Height="38" Panel.ZIndex="2" Width="230"/>
 
             <!-- Footer Links -->
             <StackPanel VerticalAlignment="Bottom" Margin="10,0,10,10">
@@ -30,18 +62,61 @@
                     <ColumnDefinition Width="*"/>
                     <ColumnDefinition Width="Auto"/>
                 </Grid.ColumnDefinitions>
+                <Button Width="50" Height="50" Command="{Binding HomeCommand}" Margin="90,15,556,15">
+                    <Button.Style>
+                        <Style TargetType="{x:Type Button}">
+                            <Setter Property="Background" Value="#FF7B7B7B"/>
+                            <Setter Property="BorderThickness" Value="0"/>
+                            <Setter Property="Template">
+                                <Setter.Value>
+                                    <ControlTemplate TargetType="{x:Type Button}">
+                                        <Border Background="{TemplateBinding Background}" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}" CornerRadius="25">
+                                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                                        </Border>
+                                    </ControlTemplate>
+                                </Setter.Value>
+                            </Setter>
+                            <Style.Triggers>
+                                <Trigger Property="IsMouseOver" Value="True">
+                                    <Setter Property="Background" Value="#FF777777"/>
+                                    <Setter Property="Cursor" Value="Hand"/>
+                                </Trigger>
+                            </Style.Triggers>
+                        </Style>
+                    </Button.Style>
+                    <materialDesign:PackIcon Kind="Home" Width="30" Height="30"/>
+                </Button>
+
 
                 <!-- Search Bar -->
-                <TextBox Grid.Column="0" Height="40" Margin="166,0,166,0" VerticalAlignment="Center" FontSize="16"
-                         Background="#333" Foreground="White" BorderBrush="Gray" Text="Bạn muốn phát nội dung gì?" Padding="10"/>
+                <TextBox x:Name="SearchBar"
+                    Grid.Column="0" Height="40" Margin="166,0,166,0" VerticalAlignment="Center" FontSize="16"
+                         Background="#333" Foreground="White" BorderBrush="Gray" materialDesign:HintAssist.Hint="Bạn muốn phát nội dung gì?"
+                         Padding="10">
+                    <i:Interaction.Triggers>
+                        <i:EventTrigger EventName="TextChanged">
+                            <i:InvokeCommandAction Command="{Binding SearchBarChanged}" CommandParameter="{Binding ElementName=SearchBar}">
+
+                            </i:InvokeCommandAction>
+                        </i:EventTrigger>
+                    </i:Interaction.Triggers>
+                </TextBox>
+                <Button IsEnabled="{Binding DataContext.ControlsEnabled, RelativeSource={RelativeSource AncestorType={x:Type Window}, Mode=FindAncestor}}"
+                                Command="{Binding SearchCommand}"
+                                Style="{StaticResource MaterialDesignFloatingActionMiniLightButton}" ToolTip="MaterialDesignFloatingActionMiniLightButton" Margin="558,20,98,20">
+                <materialDesign:PackIcon Width="30" Height="30" Kind="Search" />
+                </Button>
 
                 <!-- Login and Register Buttons -->
-                <StackPanel Grid.Column="1" Orientation="Horizontal" VerticalAlignment="Center" Margin="0,0,20,0">
-                    <Button x:Name="Register" Content="Register" Height="57" Width="156" Background="{x:Null}" FontWeight="Bold" FontSize="24" Foreground="#FF222222" BorderBrush="{x:Null}" Click="Nextbtn_Click" Margin="10,0">
+                <Canvas Grid.Column="1" VerticalAlignment="Center" Width="400" Height="60" Margin="0,0,20,0">
+                    <!-- Register Button -->
+                    <Button x:Name="Register" Content="Register" Height="57" Width="156" FontWeight="Bold" FontSize="24"
+            Foreground="#FF222222" BorderBrush="{x:Null}" Margin="10,0" Canvas.ZIndex="2"
+            Command="{Binding RegisterCommand}"      
+            Visibility="{Binding IsLoggedIn, Converter={StaticResource BooleanToVisibilityConverter}, ConverterParameter=Invert}">
                         <Button.Style>
                             <Style TargetType="{x:Type Button}">
-                                <Setter Property="Background" Value="LightBlue"/>
-                                <Setter Property="BorderBrush" Value="DarkBlue"/>
+                                <Setter Property="Background" Value="{x:Null}"/>
                                 <Setter Property="BorderThickness" Value="1"/>
                                 <Setter Property="Template">
                                     <Setter.Value>
@@ -52,15 +127,24 @@
                                         </ControlTemplate>
                                     </Setter.Value>
                                 </Setter>
+                                <Style.Triggers>
+                                    <Trigger Property="IsMouseOver" Value="True">
+                                        <Setter Property="Background" Value="#EDECEC"/>
+                                        <Setter Property="Foreground" Value="#FF222222"/>
+                                        <Setter Property="Cursor" Value="Hand"/>
+                                    </Trigger>
+                                </Style.Triggers>
                             </Style>
                         </Button.Style>
                     </Button>
 
                     <!-- Login Button -->
-                    <Button x:Name="Login" Content="Next" Height="57" Width="156" Background="White" FontWeight="Bold" FontSize="22" Click="Nextbtn_Click" Margin="10,0">
+                    <Button x:Name="Login" Content="Next" Height="57" Width="156" FontWeight="Bold" FontSize="22" Canvas.ZIndex="2"
+            Command="{Binding LoginCommand}"
+                            Visibility="{Binding IsLoggedIn, Converter={StaticResource BooleanToVisibilityConverter}, ConverterParameter=Invert}" HorizontalAlignment="Left" Canvas.Left="192" VerticalAlignment="Center">
                         <Button.Style>
                             <Style TargetType="{x:Type Button}">
-                                <Setter Property="Background" Value="LightBlue"/>
+                                <Setter Property="Background" Value="White"/>
                                 <Setter Property="BorderBrush" Value="DarkBlue"/>
                                 <Setter Property="BorderThickness" Value="1"/>
                                 <Setter Property="Template">
@@ -72,56 +156,35 @@
                                         </ControlTemplate>
                                     </Setter.Value>
                                 </Setter>
+                                <Style.Triggers>
+                                    <Trigger Property="IsMouseOver" Value="True">
+                                        <Setter Property="Background" Value="#EDECEC"/>
+                                        <Setter Property="Foreground" Value="Black"/>
+                                        <Setter Property="Cursor" Value="Hand"/>
+                                    </Trigger>
+                                </Style.Triggers>
                             </Style>
                         </Button.Style>
                     </Button>
-                </StackPanel>
+
+                    <!-- Menu overlapping the buttons -->
+                    <Menu Width="57" Height="57" Canvas.Top="-10" Canvas.Left="293" 
+                          Visibility="{Binding IsLoggedIn, Converter={StaticResource BooleanToVisibilityConverter}}"
+                          Background="White" Foreground="#E5000000" FontSize="36" 
+                          Style="{StaticResource RoundedMenuStyle}"
+                          FontWeight="Bold" HorizontalAlignment="Left" VerticalAlignment="Top">
+                        <MenuItem Header="{Binding User.Username}" Foreground="Black" Width="49" FontSize="24" Background="{x:Null}" Height="53">
+                            <MenuItem Header="My Profile" Command="{Binding MyProfileCommand}" Foreground="Black" Width="202" FontSize="24"/>
+                            <MenuItem Header="My Playlist" Command="{Binding MyPlayListCommand}" Foreground="Black" Width="202" FontSize="24"/>
+                            <MenuItem Header="Log out" Command="{Binding LogOutCommand}" Foreground="Black" Width="202" FontSize="24"/>
+                        </MenuItem>
+                    </Menu>
+                </Canvas>
+
             </Grid>
 
             <!-- Sections -->
-            <ScrollViewer VerticalScrollBarVisibility="Auto">
-                <StackPanel>
-                    <!-- Popular Artists -->
-                    <TextBlock Text="Nghệ sĩ phổ biến" FontSize="24" FontWeight="Bold" Foreground="White" Margin="20,20,0,10"/>
-                    <ScrollViewer HorizontalScrollBarVisibility="Auto" Height="150">
-                        <StackPanel Orientation="Horizontal">
-                            <!-- Artist Profiles -->
-                            <Image Source="/assets/img/artist1.jpg" Width="120" Height="120" Margin="10"/>
-                            <Image Source="/assets/img/artist2.jpg" Width="120" Height="120" Margin="10"/>
-                            <Image Source="/assets/img/artist3.jpg" Width="120" Height="120" Margin="10"/>
-                            <Image Source="/assets/img/artist4.jpg" Width="120" Height="120" Margin="10"/>
-                            <Image Source="/assets/img/artist5.jpg" Width="120" Height="120" Margin="10"/>
-                        </StackPanel>
-                    </ScrollViewer>
-
-                    <!-- Popular Albums -->
-                    <TextBlock Text="Album phổ biến" FontSize="24" FontWeight="Bold" Foreground="White" Margin="20,20,0,10"/>
-                    <ScrollViewer HorizontalScrollBarVisibility="Auto" Height="150">
-                        <StackPanel Orientation="Horizontal">
-                            <!-- Album Covers -->
-                            <Image Source="/assets/img/album1.jpg" Width="120" Height="120" Margin="10"/>
-                            <Image Source="/assets/img/album2.jpg" Width="120" Height="120" Margin="10"/>
-                            <Image Source="/assets/img/album3.jpg" Width="120" Height="120" Margin="10"/>
-                            <Image Source="/assets/img/album4.jpg" Width="120" Height="120" Margin="10"/>
-                            <Image Source="/assets/img/album5.jpg" Width="120" Height="120" Margin="10"/>
-                        </StackPanel>
-                    </ScrollViewer>
-
-                    <!-- Popular Radio -->
-                    <TextBlock Text="Radio phổ biến" FontSize="24" FontWeight="Bold" Foreground="White" Margin="20,20,0,10"/>
-                    <ScrollViewer HorizontalScrollBarVisibility="Auto" Height="150">
-                        <StackPanel Orientation="Horizontal">
-                            <!-- Radio Thumbnails -->
-                            <Image Source="/assets/img/radio1.jpg" Width="120" Height="120" Margin="10"/>
-                            <Image Source="/assets/img/radio2.jpg" Width="120" Height="120" Margin="10"/>
-                            <Image Source="/assets/img/radio3.jpg" Width="120" Height="120" Margin="10"/>
-                            <Image Source="/assets/img/radio4.jpg" Width="120" Height="120" Margin="10"/>
-                            <Image Source="/assets/img/radio5.jpg" Width="120" Height="120" Margin="10"/>
-                        </StackPanel>
-                    </ScrollViewer>
-                </StackPanel>
-            </ScrollViewer>
+            <Frame x:Name="MainContent" NavigationUIVisibility="Hidden" Content="{Binding CurrentPage}"/>
         </StackPanel>
-
     </Grid>
 </Window>

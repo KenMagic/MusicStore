@@ -2,13 +2,43 @@
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup />
   <ItemGroup>
+    <Compile Update="AlbumPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="AppManage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="ArtistPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="ChoosePlaylist.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="Done.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="HomePage.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="Login.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="Main.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="MembershipWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="MusicListener.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="MyPlaylist.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="MyProfile.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Order Page.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="RegisterPage.xaml.cs">
@@ -19,13 +49,43 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Page Update="AlbumPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="AppManage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ArtistPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ChoosePlaylist.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="Done.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="HomePage.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Login.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Main.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="MembershipWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="MusicListener.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="MyPlaylist.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="MyProfile.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Order Page.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="RegisterPage.xaml">
